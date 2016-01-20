@@ -1,0 +1,63 @@
+object frmStartLogo: TfrmStartLogo
+  Left = 269
+  Top = 224
+  AutoSize = True
+  BorderStyle = bsNone
+  ClientHeight = 276
+  ClientWidth = 480
+  Color = clBtnFace
+  ParentFont = True
+  OldCreateOrder = False
+  PopupMode = pmAuto
+  Position = poScreenCenter
+  Scaled = False
+  OnClose = FormClose
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object imgLogo: TImage32
+    Left = 0
+    Top = 0
+    Width = 480
+    Height = 276
+    Align = alClient
+    Bitmap.ResamplerClassName = 'TNearestResampler'
+    BitmapAlign = baTopLeft
+    Scale = 1.000000000000000000
+    ScaleMode = smResize
+    TabOrder = 0
+    OnClick = imgLogoClick
+    object lblVersion: TLabel
+      Left = 464
+      Top = 249
+      Width = 3
+      Height = 13
+      Alignment = taRightJustify
+      Color = clWhite
+      ParentColor = False
+      Transparent = True
+    end
+    object lblWebSite: TLabel
+      Left = 8
+      Top = 254
+      Width = 99
+      Height = 16
+      Caption = 'http://sasgis.org'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Style = [fsBold]
+      ParentFont = False
+      Transparent = True
+      Layout = tlCenter
+    end
+  end
+  object tmrLogo: TTimer
+    Enabled = False
+    Interval = 500
+    OnTimer = tmrLogoTimer
+    Left = 8
+    Top = 8
+  end
+end
