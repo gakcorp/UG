@@ -87,12 +87,12 @@ uses
   u_InetFunc;
 
 const
-  cHomePage = 'http://sasgis.org/';
+  cHomePage = 'http://www.uisgis.ru/';
   cSrcRepoLink = 'https://bitbucket.org/sas_team/sas.planet.src/';
   cReqRepoLink = 'https://bitbucket.org/sas_team/sas.requires/';
 
 resourcestring
-  rsDevelopmentTeam = 'SAS.Planet Development Team';
+  rsDevelopmentTeam = 'UIS LTD. GIS Program Department';
 
 {$R *.dfm}
 
@@ -121,33 +121,33 @@ var
 begin
   VBuildDate := FBuildInfo.GetBuildDate;
 
-  lblCopyright.Caption := 'Copyright ' + #169 + ' 2007-' + FormatDateTime('yyyy', VBuildDate) + ', ' + rsDevelopmentTeam;
+  lblCopyright.Caption := 'Copyright ' + #169 + ' ' + FormatDateTime('yyyy', VBuildDate) + ', ' + rsDevelopmentTeam;
   lblWebSite.Caption := cHomePage;
 
   lblVersion.Caption := FBuildInfo.GetVersion + ' ' + FBuildInfo.GetBuildType;
-  lblBuildTimeValue.Caption := FormatDateTime('yyyy-mm-dd hh:mm:ss', VBuildDate) + ' UTC';
-  lblBuildInfoValue.Caption := FBuildInfo.GetDescription;
-  lblCompilerValue.Caption := FBuildInfo.GetCompilerInfo;
+  lblBuildTimeValue.Caption := FormatDateTime('yyyy-mm-dd', VBuildDate);// + ' UTC';
+//  lblBuildInfoValue.Caption := FBuildInfo.GetDescription;
+//  lblCompilerValue.Caption := FBuildInfo.GetCompilerInfo;
 
-  if FBuildInfo.GetBuildSrcInfo(VRevision, VNode) then begin
-    if Length(VNode) > 12 then begin
-      SetLength(VNode, 12);
-    end;
-    lblSourcesValue.Caption := 'rev.' + IntToStr(VRevision) + ' (' + VNode + ')';
-    lblSourcesValue.Hint := cSrcRepoLink;
-  end else begin
-    lblSourcesValue.Caption := 'Unknown';
-  end;
+//  if FBuildInfo.GetBuildSrcInfo(VRevision, VNode) then begin
+//    if Length(VNode) > 12 then begin
+//     SetLength(VNode, 12);
+//    end;
+//    lblSourcesValue.Caption := 'rev.' + IntToStr(VRevision) + ' (' + VNode + ')';
+//   lblSourcesValue.Hint := cSrcRepoLink;
+//  end else begin
+//    lblSourcesValue.Caption := 'Unknown';
+//  end;
 
-  if FBuildInfo.GetBuildReqInfo(VRevision, VNode) then begin
-    if Length(VNode) > 12 then begin
-      SetLength(VNode, 12);
-    end;
-    lblRequiresValue.Caption := 'rev.' + IntToStr(VRevision) + ' (' + VNode + ')';
-    lblRequiresValue.Hint := cReqRepoLink;
-  end else begin
-    lblRequiresValue.Caption := 'Unknown';
-  end;
+//  if FBuildInfo.GetBuildReqInfo(VRevision, VNode) then begin
+//    if Length(VNode) > 12 then begin
+//      SetLength(VNode, 12);
+//    end;
+//    lblRequiresValue.Caption := 'rev.' + IntToStr(VRevision) + ' (' + VNode + ')';
+//    lblRequiresValue.Hint := cReqRepoLink;
+//  end else begin
+//    lblRequiresValue.Caption := 'Unknown';
+//  end;
 
   VBitmapStatic := ReadBitmapByFileRef(FConfigData, 'sas:\Resource\ABOUTICON.png', FContentTypeManager, nil);
 

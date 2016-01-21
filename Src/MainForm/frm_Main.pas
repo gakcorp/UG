@@ -7755,7 +7755,7 @@ end;
 
 procedure TfrmMain.tbitmOnlineHomeClick(Sender: TObject);
 begin
-  OpenUrlInBrowser('http://sasgis.org/');
+  OpenUrlInBrowser('http://www.uisgis.ru/');
 end;
 
 procedure TfrmMain.NParamsPopup(

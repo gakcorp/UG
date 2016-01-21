@@ -1345,7 +1345,7 @@ object frmMain: TfrmMain
         object tbitmOnlineHome: TTBXItem
           Images = MenusImageList
           OnClick = tbitmOnlineHomeClick
-          Caption = 'Web Site (http://www.sasgis.org)'
+          Caption = 'Web Site (http://www.uisgis.ru)'
           Hint = ''
         end
         object tbxSep1: TTBXSeparatorItem

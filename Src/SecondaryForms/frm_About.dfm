@@ -37,7 +37,7 @@ object frmAbout: TfrmAbout
     Alignment = taCenter
     Anchors = [akLeft, akTop, akRight]
     AutoSize = False
-    Caption = 'SAS.Planet'
+    Caption = 'UIS.GIS'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
@@ -72,7 +72,7 @@ object frmAbout: TfrmAbout
   end
   object lblCopyright: TLabel
     Left = 99
-    Top = 36
+    Top = 39
     Width = 229
     Height = 33
     Align = alCustom
@@ -81,15 +81,15 @@ object frmAbout: TfrmAbout
     WordWrap = True
   end
   object lblLicense: TLabel
-    Left = 16
-    Top = 88
-    Width = 300
-    Height = 26
+    Left = 8
+    Top = 89
+    Width = 320
+    Height = 39
     Align = alCustom
     Anchors = [akLeft, akTop, akRight]
     Caption = 
-      'This program is freeware, opensource and released under the GNU ' +
-      'General Public License (GPLv3)'
+      'All rights to the software owned by UIS LTD. Using functional by' +
+      ' subscription.'
     WordWrap = True
   end
   object lblCompiler: TLabel
@@ -98,6 +98,8 @@ object frmAbout: TfrmAbout
     Width = 45
     Height = 13
     Caption = 'Compiler:'
+    Enabled = False
+    Visible = False
   end
   object lblTimeStamp: TLabel
     Left = 16
@@ -107,11 +109,13 @@ object frmAbout: TfrmAbout
     Caption = 'Build date:'
   end
   object lblBuildInfo: TLabel
-    Left = 16
-    Top = 160
+    Left = 8
+    Top = 157
     Width = 47
     Height = 13
     Caption = 'Build info:'
+    Enabled = False
+    Visible = False
   end
   object lblBuildTimeValue: TLabel
     Left = 130
@@ -140,6 +144,8 @@ object frmAbout: TfrmAbout
     Width = 42
     Height = 13
     Caption = 'Sources:'
+    Enabled = False
+    Visible = False
   end
   object lblRequires: TLabel
     Left = 16
@@ -147,6 +153,8 @@ object frmAbout: TfrmAbout
     Width = 46
     Height = 13
     Caption = 'Requires:'
+    Enabled = False
+    Visible = False
   end
   object lblSourcesValue: TLabel
     Left = 130
@@ -197,8 +205,8 @@ object frmAbout: TfrmAbout
     ParentColor = True
     TabOrder = 0
     object btnClose: TButton
-      Left = 198
-      Top = 2
+      Left = 86
+      Top = 3
       Width = 130
       Height = 25
       Align = alCustom
@@ -216,7 +224,9 @@ object frmAbout: TfrmAbout
       Align = alCustom
       Anchors = [akLeft, akBottom]
       Caption = 'License'
+      Enabled = False
       TabOrder = 1
+      Visible = False
       OnClick = btnLicenseClick
     end
   end
