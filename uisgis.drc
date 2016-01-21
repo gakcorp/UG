@@ -1426,7 +1426,7 @@ BEGIN
 	u_ResStrings_SAS_STR_OperationGenPrevCaption,	"Generating upper zooms"
 	u_ResStrings_SAS_STR_OperationTilesCopyCaption,	"Copying"
 	u_ResStrings_SAS_STR_OperationDownloadCaption,	"Downloading"
-	u_ResStrings_SAS_STR_ApplicationTitle,	"SAS.Planet"
+	u_ResStrings_SAS_STR_ApplicationTitle,	"UIS.GEO Information System (UISGIS)"
 	u_ResStrings_SAS_STR_BattaryStateOnLine,	"From mains"
 	u_ResStrings_SAS_STR_BattaryStateCharge,	"Charging"
 	u_ResStrings_SAS_STR_BattaryStateUnknown,	"Unknown"

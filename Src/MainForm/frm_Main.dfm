@@ -36,6 +36,8 @@ object frmMain: TfrmMain
     TabOrder = 0
     OnDblClick = mapDblClick
     OnMouseLeave = mapMouseLeave
+    ExplicitLeft = 415
+    ExplicitTop = 60
   end
   object TBDock: TTBXDock
     Left = 0
@@ -115,7 +117,7 @@ object frmMain: TfrmMain
       end
     end
     object SrcToolbar: TTBXToolbar
-      Left = 242
+      Left = 230
       Top = 25
       DockPos = 224
       DockRow = 1
@@ -156,7 +158,7 @@ object frmMain: TfrmMain
       end
     end
     object TBMarksToolbar: TTBXToolbar
-      Left = 369
+      Left = 363
       Top = 25
       DockPos = 363
       DockRow = 1
@@ -167,7 +169,7 @@ object frmMain: TfrmMain
       Caption = 'Placemarks'
     end
     object GPSToolbar: TTBXToolbar
-      Left = 540
+      Left = 534
       Top = 25
       DockPos = 504
       DockRow = 1
@@ -256,7 +258,7 @@ object frmMain: TfrmMain
       Left = 0
       Top = 0
       CloseButton = False
-      DockPos = -6
+      DockPos = 0
       MenuBar = True
       ProcessShortCuts = True
       ShrinkMode = tbsmWrap
@@ -1320,9 +1322,11 @@ object frmMain: TfrmMain
         Caption = '&Help'
         Hint = ''
         object tbitmOnlineHelp: TTBXItem
+          Enabled = False
           ImageIndex = 26
           Images = MenusImageList
           ShortCut = 112
+          Visible = False
           OnClick = tbitmOnlineHelpClick
           Caption = 'Online Help (http://sasgis.org/wikisasiya)'
           Hint = ''
@@ -1341,19 +1345,7 @@ object frmMain: TfrmMain
         object tbitmOnlineHome: TTBXItem
           Images = MenusImageList
           OnClick = tbitmOnlineHomeClick
-          Caption = 'Web Site (http://www.sasgis.org)'
-          Hint = ''
-        end
-        object tbtmHelpBugTrack: TTBXItem
-          Images = MenusImageList
-          OnClick = tbtmHelpBugTrackClick
-          Caption = 'Issue Tracker (http://sasgis.org/mantis)'
-          Hint = ''
-        end
-        object tbitmOnlineForum: TTBXItem
-          Images = MenusImageList
-          OnClick = tbitmOnlineForumClick
-          Caption = 'Community  (http://www.sasgis.org/forum)'
+          Caption = 'Web Site (http://www.uisgis.ru)'
           Hint = ''
         end
         object tbxSep1: TTBXSeparatorItem
@@ -1379,7 +1371,7 @@ object frmMain: TfrmMain
       end
     end
     object TBXToolBarSearch: TTBXToolbar
-      Left = 399
+      Left = 429
       Top = 0
       DockPos = 413
       Options = [tboNoRotation]
@@ -1405,7 +1397,7 @@ object frmMain: TfrmMain
       end
     end
     object FillDates: TTBXToolbar
-      Left = 610
+      Left = 629
       Top = 0
       DefaultDock = TBDock
       DockPos = 643
@@ -1457,8 +1449,8 @@ object frmMain: TfrmMain
         OnChange = DateTimePicker1Change
       end
       object DateTimePicker2: TDateTimePicker
-        Left = 141
-        Top = 0
+        Left = 203
+        Top = 21
         Width = 81
         Height = 21
         Date = 40830.496065717590000000
@@ -1586,7 +1578,7 @@ object frmMain: TfrmMain
         Left = 0
         Top = 0
         Width = 170
-        Height = 549
+        Height = 544
         Align = alClient
         AutoSize = True
         BevelOuter = bvNone
@@ -1601,7 +1593,7 @@ object frmMain: TfrmMain
           Left = 0
           Top = 9
           Width = 170
-          Height = 540
+          Height = 535
           HorzScrollBar.Visible = False
           VertScrollBar.Smooth = True
           VertScrollBar.Tracking = True
@@ -1713,7 +1705,7 @@ object frmMain: TfrmMain
       end
       object TBEditSelectPolylineRadius: TSpinEdit
         Left = 0
-        Top = 136
+        Top = 138
         Width = 61
         Height = 22
         MaxValue = 100000
@@ -1739,7 +1731,7 @@ object frmMain: TfrmMain
         Left = 0
         Top = 0
         Width = 170
-        Height = 549
+        Height = 544
         Align = alClient
         BorderStyle = bsNone
         ReadOnly = True

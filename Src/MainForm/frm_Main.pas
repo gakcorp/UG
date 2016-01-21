@@ -202,7 +202,6 @@ type
     tbitmOnlineHelp: TTBXItem;
     tbitmAbout: TTBXItem;
     tbitmOnlineHome: TTBXItem;
-    tbitmOnlineForum: TTBXItem;
     NMapParams: TTBXItem;
     tbitmOptions: TTBXItem;
     tbitmInterfaceOptions: TTBXItem;
@@ -258,7 +257,6 @@ type
     TBGPSToPoint: TTBXSubmenuItem;
     TBGPSToPointCenter: TTBXItem;
     tbitmGPSToPointCenter: TTBXItem;
-    tbtmHelpBugTrack: TTBXItem;
     tbitmShowDebugInfo: TTBXItem;
     PanelsImageList: TTBXImageList;
     ZSlider: TImage32;
@@ -7757,7 +7755,7 @@ end;
 
 procedure TfrmMain.tbitmOnlineHomeClick(Sender: TObject);
 begin
-  OpenUrlInBrowser('http://sasgis.org/');
+  OpenUrlInBrowser('http://www.uisgis.ru/');
 end;
 
 procedure TfrmMain.NParamsPopup(
