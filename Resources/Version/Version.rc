@@ -1,6 +1,6 @@
 1 VERSIONINFO
-FILEVERSION 0,2,0,0
-PRODUCTVERSION 0,2,0,0
+FILEVERSION 0,3,0,1
+PRODUCTVERSION 0,3,0,1
 FILEOS VOS_NT_WINDOWS32
 FILETYPE VFT_APP
 FILESUBTYPE VFT2_UNKNOWN
@@ -11,13 +11,13 @@ BLOCK "StringFileInfo"
    {
       VALUE "CompanyName", "UIS LTD Prod Department\000"
       VALUE "FileDescription", "\000"
-      VALUE "FileVersion", "0.1.0.0\000"
+      VALUE "FileVersion", "0.3.0.0\000"
       VALUE "InternalName", "Uis.gis.infosystem\000"
       VALUE "LegalCopyright", "UIS LTD\000"
       VALUE "LegalTrademarks", "UIS LTD\000"
       VALUE "OriginalFilename", "uisgis.exe\000"
       VALUE "ProductName", "UIS GIS\000"
-      VALUE "ProductVersion", "0.2.0.0\000"
+      VALUE "ProductVersion", "0.3.0.0\000"
       VALUE "Comments", "\000"
    }
 }
