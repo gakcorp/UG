@@ -1320,9 +1320,11 @@ object frmMain: TfrmMain
         Caption = '&Help'
         Hint = ''
         object tbitmOnlineHelp: TTBXItem
+          Enabled = False
           ImageIndex = 26
           Images = MenusImageList
           ShortCut = 112
+          Visible = False
           OnClick = tbitmOnlineHelpClick
           Caption = 'Online Help (http://sasgis.org/wikisasiya)'
           Hint = ''
