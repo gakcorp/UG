@@ -36,6 +36,8 @@ object frmMain: TfrmMain
     TabOrder = 0
     OnDblClick = mapDblClick
     OnMouseLeave = mapMouseLeave
+    ExplicitLeft = 415
+    ExplicitTop = 60
   end
   object TBDock: TTBXDock
     Left = 0

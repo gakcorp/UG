@@ -202,7 +202,7 @@ ResourceString
   SAS_STR_OperationTilesCopyCaption = 'Copying';
   SAS_STR_OperationMapCombineCaption = 'Stitching the map';
   SAS_STR_OperationDownloadCaption = 'Downloading';
-  SAS_STR_ApplicationTitle = 'SAS.Planet';
+  SAS_STR_ApplicationTitle = 'UIS.GEO Information System (UISGIS)';
   SAS_STR_BattaryStateOnLine = 'From mains';
   SAS_STR_BattaryStateCharge = 'Charging';
   SAS_STR_BattaryStateUnknown = 'Unknown';
