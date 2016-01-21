@@ -1,5 +1,5 @@
 // JCL_DEBUG_EXPERT_INSERTJDBG ON
-program SASPlanet;
+program uisgis;
 
 uses
   SASPlanet.modules in 'Src\SASPlanet.modules.pas',

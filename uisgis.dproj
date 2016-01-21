@@ -2,11 +2,11 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectGuid>{162abc9c-8e53-40c3-868b-e8a4b2339ea6}</ProjectGuid>
-    <MainSource>SASPlanet.dpr</MainSource>
+    <MainSource>uisgis.dpr</MainSource>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
-    <DCC_DependencyCheckOutputName>.bin\SASPlanet.exe</DCC_DependencyCheckOutputName>
+    <DCC_DependencyCheckOutputName>.bin\uisgis.exe</DCC_DependencyCheckOutputName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Version>7.0</Version>
@@ -44,11 +44,11 @@
     <Borland.Personality>Delphi.Personality</Borland.Personality>
     <Borland.ProjectType>VCLApplication</Borland.ProjectType>
     <BorlandProject>
-<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Source><Source Name="MainSource">SASPlanet.dpr</Source></Source><VersionInfo><VersionInfo Name="IncludeVerInfo">False</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1033</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys></Delphi.Personality></BorlandProject></BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Source><Source Name="MainSource">uisgis.dpr</Source></Source><VersionInfo><VersionInfo Name="IncludeVerInfo">False</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1033</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys></Delphi.Personality></BorlandProject></BorlandProject>
   </ProjectExtensions>
   <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
   <ItemGroup>
-    <DelphiCompile Include="SASPlanet.dpr">
+    <DelphiCompile Include="uisgis.dpr">
       <MainSource>MainSource</MainSource>
     </DelphiCompile>
     <DCCReference Include="Src\ArchiveReadWrite\i_ArchiveReadWrite.pas" />
@@ -1027,12 +1027,12 @@
     <DCCReference Include="Src\Predicate\u_PredicateByStaticSampleList.pas" />
     <DCCReference Include="Src\Predicate\u_PredicateByTileInfoBase.pas" />
     <DCCReference Include="Src\RegionProcess\Combine\fr_Combine.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frCombine</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Combine\fr_MapCombine.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frMapCombine</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Combine\i_BitmapMapCombiner.pas" />
     <DCCReference Include="Src\RegionProcess\Combine\i_ImageLineProvider.pas" />
@@ -1056,8 +1056,8 @@
     <DCCReference Include="Src\RegionProcess\Combine\u_ProviderMapCombineRAW.pas" />
     <DCCReference Include="Src\RegionProcess\Combine\u_ThreadMapCombineBase.pas" />
     <DCCReference Include="Src\RegionProcess\Copy\fr_TilesCopy.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frTilesCopy</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Copy\u_ProviderTilesCopy.pas" />
     <DCCReference Include="Src\RegionProcess\Copy\u_ThreadCopyFromStorageToStorage.pas" />
@@ -1082,44 +1082,44 @@
       <Form>frmProgressDownload</Form>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Download\fr_TilesDownload.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frTilesDownload</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Download\u_ProviderTilesDownload.pas" />
     <DCCReference Include="Src\RegionProcess\Download\u_ThreadDownloadTiles.pas" />
     <DCCReference Include="Src\RegionProcess\Export\Archive\fr_ExportToFileCont.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frExportToFileCont</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Export\Archive\u_ExportProviderTar.pas" />
     <DCCReference Include="Src\RegionProcess\Export\Archive\u_ExportProviderZip.pas" />
     <DCCReference Include="Src\RegionProcess\Export\Archive\u_ThreadExportToArchive.pas" />
     <DCCReference Include="Src\RegionProcess\Export\fr_Export.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frExport</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Export\GeoExpressAUX\fr_ExportAUX.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frExportAUX</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Export\GeoExpressAUX\u_ExportProviderAUX.pas" />
     <DCCReference Include="Src\RegionProcess\Export\GeoExpressAUX\u_ThreadExportToAUX.pas" />
     <DCCReference Include="Src\RegionProcess\Export\IPhone\fr_ExportIPhone.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frExportIPhone</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Export\IPhone\u_ExportProviderIPhone.pas" />
     <DCCReference Include="Src\RegionProcess\Export\IPhone\u_ThreadExportIPhone.pas" />
     <DCCReference Include="Src\RegionProcess\Export\JNX\fr_ExportToJNX.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frExportToJNX</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Export\JNX\u_ExportProviderJNX.pas" />
     <DCCReference Include="Src\RegionProcess\Export\JNX\u_ExportToJnxTask.pas" />
     <DCCReference Include="Src\RegionProcess\Export\JNX\u_ThreadExportToJNX.pas" />
     <DCCReference Include="Src\RegionProcess\Export\KML\fr_ExportGEKml.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frExportGEKml</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Export\KML\u_ExportProviderGEKml.pas" />
     <DCCReference Include="Src\RegionProcess\Export\KML\u_ThreadExportKML.pas" />
@@ -1130,8 +1130,8 @@
     <DCCReference Include="Src\RegionProcess\Export\MBTiles\u_ExportProviderMBTiles.pas" />
     <DCCReference Include="Src\RegionProcess\Export\MBTiles\u_ThreadExportToMBTiles.pas" />
     <DCCReference Include="Src\RegionProcess\Export\OGF2\fr_ExportToOgf2.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frExportToOgf2</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Export\OGF2\u_ExportProviderOgf2.pas" />
     <DCCReference Include="Src\RegionProcess\Export\OGF2\u_ThreadExportToOgf2.pas" />
@@ -1142,25 +1142,25 @@
     <DCCReference Include="Src\RegionProcess\Export\OruxMaps\u_ExportProviderOruxMapsSQLite.pas" />
     <DCCReference Include="Src\RegionProcess\Export\OruxMaps\u_ThreadExportToOruxMapsSQLite.pas" />
     <DCCReference Include="Src\RegionProcess\Export\RMaps\fr_ExportRMapsSQLite.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frExportRMapsSQLite</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Export\RMaps\u_ExportProviderRMapsSQLite.pas" />
     <DCCReference Include="Src\RegionProcess\Export\RMaps\u_ThreadExportToRMapsSQLite.pas" />
     <DCCReference Include="Src\RegionProcess\Export\SAS4Android\fr_ExportToCE.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frExportToCE</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Export\SAS4Android\u_ExportProviderCE.pas" />
     <DCCReference Include="Src\RegionProcess\Export\SAS4Android\u_ThreadExportToCE.pas" />
     <DCCReference Include="Src\RegionProcess\Export\u_ThreadExportAbstract.pas" />
     <DCCReference Include="Src\RegionProcess\Export\YandexMobile\fr_ExportYaMobileV3.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frExportYaMobileV3</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Export\YandexMobile\fr_ExportYaMobileV4.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frExportYaMobileV4</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\Export\YandexMobile\u_ExportProviderYaMobileV3.pas" />
     <DCCReference Include="Src\RegionProcess\Export\YandexMobile\u_ExportProviderYaMobileV4.pas" />
@@ -1173,20 +1173,20 @@
       <Form>frmRegionProcess</Form>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\fr_MapSelect.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frMapSelect</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\fr_PathSelect.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frPathSelect</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\fr_ZoomsSelect.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frZoomsSelect</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\GenPrev\fr_TilesGenPrev.pas">
-      <DesignClass>TFrame</DesignClass>
       <Form>frTilesGenPrev</Form>
+      <DesignClass>TFrame</DesignClass>
     </DCCReference>
     <DCCReference Include="Src\RegionProcess\GenPrev\u_ProviderTilesGenPrev.pas" />
     <DCCReference Include="Src\RegionProcess\GenPrev\u_ThreadGenPrevZoom.pas" />
