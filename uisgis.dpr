@@ -1362,7 +1362,8 @@ uses
   u_ValueToStringConverter in 'Src\u_ValueToStringConverter.pas',
   u_ValueToStringConverterChangeable in 'Src\u_ValueToStringConverterChangeable.pas',
   u_ValueToStringConverterConfig in 'Src\u_ValueToStringConverterConfig.pas',
-  u_WindowPositionConfig in 'Src\u_WindowPositionConfig.pas';
+  u_WindowPositionConfig in 'Src\u_WindowPositionConfig.pas',
+  u_UIS_Settings in 'Src\1UIS\u_UIS_Settings.pas';
 
 {$R .\Resources\VersionInfo.res}
 {$R .\Resources\MainIcon.res}

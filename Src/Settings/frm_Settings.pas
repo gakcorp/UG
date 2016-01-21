@@ -225,6 +225,8 @@ type
     pnlMATilesPath: TPanel;
     pnlCacheTypesList: TPanel;
     pnlTMSPath: TPanel;
+    TabSheet1: TTabSheet;
+    Button1: TButton;
     procedure btnCancelClick(Sender: TObject);
     procedure btnApplyClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -241,6 +243,7 @@ type
     procedure btnImageProcessResetClick(Sender: TObject);
     procedure btnResetUserAgentStringClick(Sender: TObject);
     procedure BtnDefClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
   private
     FOnSave: TNotifyEvent;
     FLinksList: IListenerNotifierLinksList;
@@ -302,7 +305,8 @@ uses
   u_ListenerNotifierLinksList,
   u_SafeStrUtil,
   u_GlobalState,
-  u_ResStrings;
+  u_ResStrings,
+  u_UIS_Settings;
 
 {$R *.dfm}
 
@@ -540,6 +544,13 @@ end;
 procedure TfrmSettings.btnResetUserAgentStringClick(Sender: TObject);
 begin
   edtUserAgent.Text := cUserAgent;
+end;
+
+procedure TfrmSettings.Button1Click(Sender: TObject);
+Var res:Boolean;
+begin
+   res:=UISSettingsTestHide(False);
+
 end;
 
 procedure TfrmSettings.btnApplyClick(Sender: TObject);

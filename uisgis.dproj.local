@@ -2,5 +2,6 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2016.01.21 11:23:36.459.dproj,D:\Proj\Новая папка\UG\SASPlanet.dproj=D:\Proj\Новая папка\UG\uisgis.dproj</Transaction>
+    <Transaction>2016.01.21 16:03:24.137.pas,D:\Proj\Новая папка\UG\Unit1.pas=D:\Proj\Новая папка\UG\Src\1UIS\u_UIS_Settings.pas</Transaction>
   </Transactions>
 </BorlandProject>
