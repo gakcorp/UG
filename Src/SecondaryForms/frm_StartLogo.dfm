@@ -28,21 +28,22 @@ object frmStartLogo: TfrmStartLogo
     TabOrder = 0
     OnClick = imgLogoClick
     object lblVersion: TLabel
-      Left = 464
-      Top = 249
-      Width = 3
+      Left = 19
+      Top = 260
+      Width = 43
       Height = 13
       Alignment = taRightJustify
+      Caption = 'Version'
       Color = clWhite
       ParentColor = False
       Transparent = True
     end
     object lblWebSite: TLabel
-      Left = 8
-      Top = 254
-      Width = 99
+      Left = 376
+      Top = 258
+      Width = 90
       Height = 16
-      Caption = 'http://sasgis.org'
+      Caption = 'www.uisgis.ru'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -13
@@ -55,7 +56,6 @@ object frmStartLogo: TfrmStartLogo
   end
   object tmrLogo: TTimer
     Enabled = False
-    Interval = 500
     OnTimer = tmrLogoTimer
     Left = 8
     Top = 8
