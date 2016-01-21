@@ -202,7 +202,6 @@ type
     tbitmOnlineHelp: TTBXItem;
     tbitmAbout: TTBXItem;
     tbitmOnlineHome: TTBXItem;
-    tbitmOnlineForum: TTBXItem;
     NMapParams: TTBXItem;
     tbitmOptions: TTBXItem;
     tbitmInterfaceOptions: TTBXItem;
@@ -258,7 +257,6 @@ type
     TBGPSToPoint: TTBXSubmenuItem;
     TBGPSToPointCenter: TTBXItem;
     tbitmGPSToPointCenter: TTBXItem;
-    tbtmHelpBugTrack: TTBXItem;
     tbitmShowDebugInfo: TTBXItem;
     PanelsImageList: TTBXImageList;
     ZSlider: TImage32;

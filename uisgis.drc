@@ -8,165 +8,165 @@
   resources were bound to the produced executable.
 */
 
-#define u_LayerScaleLinePopupMenu_rsHideScaleLegend 64512
-#define u_LayerScaleLinePopupMenu_rsOptions 64513
-#define u_LayerStatBarPopupMenu_rsShowZoomInfo 64514
-#define u_LayerStatBarPopupMenu_rsShowLonLatInfo 64515
-#define u_LayerStatBarPopupMenu_rsShowMeterPerPixelInfo 64516
-#define u_LayerStatBarPopupMenu_rsShowElevationInfo 64517
-#define u_LayerStatBarPopupMenu_rsShowTimeZoneInfo 64518
-#define u_LayerStatBarPopupMenu_rsShowDownloadInfo 64519
-#define u_LayerStatBarPopupMenu_rsShowQueueInfo 64520
-#define u_LayerStatBarPopupMenu_rsShowTilePathInfo 64521
-#define u_LayerStatBarPopupMenu_rsHideStatusBar 64522
-#define u_LayerStatBarPopupMenu_rsOptions 64523
-#define u_LayerStatBarPopupMenu_rsAnyAvailableElevationSource 64524
-#define u_LayerStatBarPopupMenu_rsDisableElevationInfo 64525
-#define u_TileStorageTypeListSimple_rsBerkeleyDBVersionedCacheName 64528
-#define u_TileStorageTypeListSimple_rsMobileAtlasCacheName 64529
-#define u_TileStorageTypeListSimple_rsDBMSCacheName 64530
-#define u_TileStorageTypeListSimple_rsRAMCacheName 64531
-#define frm_UpdateChecker_rsError 64532
-#define frm_UpdateChecker_rsSearchAvailableVersionInfo 64533
-#define frm_UpdateChecker_rsDownloadProgressInfo 64534
-#define frm_UpdateChecker_rsDownloadFinished 64535
-#define frm_PascalScriptIDE_rsSuccessfullyCompiled 64536
-#define frm_PascalScriptIDE_rsSuccessfullyExecuted 64537
-#define frm_PascalScriptIDE_rsCanCloseQuery 64538
-#define u_LayerScaleLinePopupMenu_rsShowVerticalScaleLegend 64539
-#define u_LayerScaleLinePopupMenu_rsNumbersFormat 64540
-#define u_LayerScaleLinePopupMenu_rsNice 64541
-#define u_LayerScaleLinePopupMenu_rsRound 64542
-#define u_LayerScaleLinePopupMenu_rsScience 64543
-#define CCR_Exif_Consts_SSubPropertiesNotSupported 64544
-#define CCR_Exif_Consts_SCannotWriteSingleValueToStructureProperty 64545
-#define CCR_Exif_Consts_SPreferredPrefixMustBeSet 64546
-#define u_TileStorageInRAM_rsMemCacheNotAssigned 64547
-#define u_TileStorageTypeListSimple_rsSASPlanetCacheName 64548
-#define u_TileStorageTypeListSimple_rsGoogleMVCacheName 64549
-#define u_TileStorageTypeListSimple_rsEarthSlicerCacheName 64550
-#define u_TileStorageTypeListSimple_rsGlobalMapperCacheName 64551
-#define u_TileStorageTypeListSimple_rsGlobalMapperAuxCacheName 64552
-#define u_TileStorageTypeListSimple_rsGlobalMapperBingCacheName 64553
-#define u_TileStorageTypeListSimple_rsOsmAndCacheName 64554
-#define u_TileStorageTypeListSimple_rsTMSCacheName 64555
-#define u_TileStorageTypeListSimple_rsGoogleEarthCacheName 64556
-#define u_TileStorageTypeListSimple_rsGoogleEarthTerrainCacheName 64557
-#define u_TileStorageTypeListSimple_rsGeoCacherCacheName 64558
-#define u_TileStorageTypeListSimple_rsBerkeleyDBCacheName 64559
-#define u_MapCalibrationTab_rsTabMapCalibrationDescription 64560
-#define u_BerkeleyDBPool_rsObjectNotInPool 64561
-#define u_BerkeleyDBPool_rsNoAvailableObjects 64562
-#define u_BerkeleyDBPool_rsCantAcquireDB 64563
-#define u_BerkeleyDBPool_rsPoolIsDesabled 64564
-#define u_BerkeleyDBPool_rsCantUseOldPoolRecord 64565
-#define CCR_Exif_Consts_SStreamIsReadOnly 64566
-#define CCR_Exif_Consts_SInvalidJPEGHeader 64567
-#define CCR_Exif_Consts_SInvalidPSDHeader 64568
-#define CCR_Exif_Consts_SInvalidTiffData 64569
-#define CCR_Exif_Consts_STagAlreadyExists 64570
-#define CCR_Exif_Consts_SIllegalEditOfExifData 64571
-#define CCR_Exif_Consts_STagCanContainOnlyASCII 64572
-#define CCR_Exif_Consts_SInvalidMakerNoteFormat 64573
-#define CCR_Exif_Consts_SInvalidXMPPacket 64574
-#define CCR_Exif_Consts_SSubPropertiesMustBeNamed 64575
-#define uPSCompiler_RPS_Warning 64576
-#define uPSCompiler_RPS_CalculationAlwaysEvaluatesTo 64577
-#define uPSCompiler_RPS_IsNotNeeded 64578
-#define uPSCompiler_RPS_AbstractClass 64579
-#define uPSCompiler_RPS_UnknownWarning 64580
-#define uPSC_dll_RPS_Invalid_External 64581
-#define uPSC_dll_RPS_InvalidCallingConvention 64582
-#define c_MarkSystem_rsSMLMarksDbName 64583
-#define c_MarkSystem_rsORMSQLiteMarksDbName 64584
-#define c_MarkSystem_rsORMMongoDbMarksDbName 64585
-#define c_MarkSystem_rsORMODBCMarksDbName 64586
-#define c_MarkSystem_rsORMZDBCMarksDbName 64587
-#define SynCommons_sValidationFailed 64588
-#define SynCommons_sValidationFieldVoid 64589
-#define SynCommons_sValidationFieldDuplicate 64590
-#define u_MapCalibrationOzi_rsOziMapCalibrationDescription 64591
-#define uPSCompiler_RPS_NotInLoop 64592
-#define uPSCompiler_RPS_InvalidJump 64593
-#define uPSCompiler_RPS_OpenBlockExpected 64594
-#define uPSCompiler_RPS_WriteOnlyProperty 64595
-#define uPSCompiler_RPS_ReadOnlyProperty 64596
-#define uPSCompiler_RPS_ClassTypeExpected 64597
-#define uPSCompiler_RPS_DivideByZero 64598
-#define uPSCompiler_RPS_MathError 64599
-#define uPSCompiler_RPS_UnsatisfiedForward 64600
-#define uPSCompiler_RPS_ForwardParameterMismatch 64601
-#define uPSCompiler_RPS_InvalidNumberOfParameter 64602
-#define uPSCompiler_RPS_UnknownError 64603
-#define uPSCompiler_RPS_Hint 64604
-#define uPSCompiler_RPS_VariableNotUsed 64605
-#define uPSCompiler_RPS_FunctionNotUsed 64606
-#define uPSCompiler_RPS_UnknownHint 64607
-#define uPSCompiler_RPS_TypeMismatch 64608
-#define uPSCompiler_RPS_InternalError 64609
-#define uPSCompiler_RPS_AssignmentExpected 64610
-#define uPSCompiler_RPS_ThenExpected 64611
-#define uPSCompiler_RPS_DoExpected 64612
-#define uPSCompiler_RPS_NoResult 64613
-#define uPSCompiler_RPS_OpenRoundExpected 64614
-#define uPSCompiler_RPS_CommaExpected 64615
-#define uPSCompiler_RPS_ToExpected 64616
-#define uPSCompiler_RPS_IsExpected 64617
-#define uPSCompiler_RPS_OfExpected 64618
-#define uPSCompiler_RPS_CloseBlockExpected 64619
-#define uPSCompiler_RPS_VariableExpected 64620
-#define uPSCompiler_RPS_StringExpected 64621
-#define uPSCompiler_RPS_EndExpected 64622
-#define uPSCompiler_RPS_UnSetLabel 64623
-#define uPSCompiler_RPS_UnknownInterface 64624
-#define uPSCompiler_RPS_Error 64625
-#define uPSCompiler_RPS_UnknownIdentifier 64626
-#define uPSCompiler_RPS_IdentifierExpected 64627
-#define uPSCompiler_RPS_CommentError 64628
-#define uPSCompiler_RPS_StringError 64629
-#define uPSCompiler_RPS_CharError 64630
-#define uPSCompiler_RPS_SyntaxError 64631
-#define uPSCompiler_RPS_EOF 64632
-#define uPSCompiler_RPS_SemiColonExpected 64633
-#define uPSCompiler_RPS_BeginExpected 64634
-#define uPSCompiler_RPS_PeriodExpected 64635
-#define uPSCompiler_RPS_DuplicateIdent 64636
-#define uPSCompiler_RPS_ColonExpected 64637
-#define uPSCompiler_RPS_UnknownType 64638
-#define uPSCompiler_RPS_CloseRoundExpected 64639
-#define uPSRuntime_RPS_OutOfMemory 64640
-#define uPSRuntime_RPS_InterfaceNotSupported 64641
-#define uPSRuntime_RPS_UnknownError 64642
-#define uPSRuntime_RPS_InvalidArray 64643
-#define uPSRuntime_RPS_OutOfStringRange 64644
-#define uPSRuntime_RPS_CannotCastInterface 64645
-#define uPSRuntime_RPS_CannotCastObject 64646
-#define uPSRuntime_RPS_CapacityLength 64647
-#define uPSRuntime_RPS_NILInterfaceException 64648
-#define uPSRuntime_RPS_UnknownMethod 64649
-#define uPSCompiler_RPS_OnUseEventOnly 64650
-#define uPSCompiler_RPS_UnableToRegisterFunction 64651
-#define uPSCompiler_RPS_UnableToRegisterConst 64652
-#define uPSCompiler_RPS_InvalidTypeForVar 64653
-#define uPSCompiler_RPS_InvalidType 64654
-#define uPSCompiler_RPS_UnableToRegisterType 64655
-#define uPSRuntime_RPS_InvalidOpcode 64656
-#define uPSRuntime_RPS_InvalidOpcodeParameter 64657
-#define uPSRuntime_RPS_NoMainProc 64658
-#define uPSRuntime_RPS_OutOfGlobalVarsRange 64659
-#define uPSRuntime_RPS_OutOfProcRange 64660
-#define uPSRuntime_RPS_OutOfRange 64661
-#define uPSRuntime_RPS_OutOfStackRange 64662
-#define uPSRuntime_RPS_TypeMismatch 64663
-#define uPSRuntime_RPS_UnexpectedEof 64664
-#define uPSRuntime_RPS_VersionError 64665
-#define uPSRuntime_RPS_DivideByZero 64666
-#define uPSRuntime_RPS_MathError 64667
-#define uPSRuntime_RPS_CouldNotCallProc 64668
-#define uPSRuntime_RPS_OutofRecordRange 64669
-#define uPSRuntime_RPS_NullPointerException 64670
-#define uPSRuntime_RPS_NullVariantError 64671
-#define frm_MergePolygonsProgress_rsElapsedTime 64672
+#define u_LayerStatBarPopupMenu_rsShowDownloadInfo 64512
+#define u_LayerStatBarPopupMenu_rsShowQueueInfo 64513
+#define u_LayerStatBarPopupMenu_rsShowTilePathInfo 64514
+#define u_LayerStatBarPopupMenu_rsHideStatusBar 64515
+#define u_LayerStatBarPopupMenu_rsOptions 64516
+#define u_LayerStatBarPopupMenu_rsAnyAvailableElevationSource 64517
+#define u_LayerStatBarPopupMenu_rsDisableElevationInfo 64518
+#define u_LayerScaleLinePopupMenu_rsShowVerticalScaleLegend 64519
+#define u_LayerScaleLinePopupMenu_rsNumbersFormat 64520
+#define u_LayerScaleLinePopupMenu_rsNice 64521
+#define u_LayerScaleLinePopupMenu_rsRound 64522
+#define u_LayerScaleLinePopupMenu_rsScience 64523
+#define u_LayerScaleLinePopupMenu_rsHideScaleLegend 64524
+#define u_LayerScaleLinePopupMenu_rsOptions 64525
+#define CCR_Exif_Consts_STagAlreadyExists 64528
+#define CCR_Exif_Consts_SIllegalEditOfExifData 64529
+#define CCR_Exif_Consts_STagCanContainOnlyASCII 64530
+#define CCR_Exif_Consts_SInvalidMakerNoteFormat 64531
+#define CCR_Exif_Consts_SInvalidXMPPacket 64532
+#define CCR_Exif_Consts_SSubPropertiesMustBeNamed 64533
+#define CCR_Exif_Consts_SSubPropertiesNotSupported 64534
+#define CCR_Exif_Consts_SCannotWriteSingleValueToStructureProperty 64535
+#define CCR_Exif_Consts_SPreferredPrefixMustBeSet 64536
+#define u_MapCalibrationTab_rsTabMapCalibrationDescription 64537
+#define frm_About_rsDevelopmentTeam 64538
+#define u_LayerStatBarPopupMenu_rsShowZoomInfo 64539
+#define u_LayerStatBarPopupMenu_rsShowLonLatInfo 64540
+#define u_LayerStatBarPopupMenu_rsShowMeterPerPixelInfo 64541
+#define u_LayerStatBarPopupMenu_rsShowElevationInfo 64542
+#define u_LayerStatBarPopupMenu_rsShowTimeZoneInfo 64543
+#define u_TileStorageTypeListSimple_rsGlobalMapperAuxCacheName 64544
+#define u_TileStorageTypeListSimple_rsGlobalMapperBingCacheName 64545
+#define u_TileStorageTypeListSimple_rsOsmAndCacheName 64546
+#define u_TileStorageTypeListSimple_rsTMSCacheName 64547
+#define u_TileStorageTypeListSimple_rsGoogleEarthCacheName 64548
+#define u_TileStorageTypeListSimple_rsGoogleEarthTerrainCacheName 64549
+#define u_TileStorageTypeListSimple_rsGeoCacherCacheName 64550
+#define u_TileStorageTypeListSimple_rsBerkeleyDBCacheName 64551
+#define u_TileStorageTypeListSimple_rsBerkeleyDBVersionedCacheName 64552
+#define u_TileStorageTypeListSimple_rsMobileAtlasCacheName 64553
+#define u_TileStorageTypeListSimple_rsDBMSCacheName 64554
+#define u_TileStorageTypeListSimple_rsRAMCacheName 64555
+#define CCR_Exif_Consts_SStreamIsReadOnly 64556
+#define CCR_Exif_Consts_SInvalidJPEGHeader 64557
+#define CCR_Exif_Consts_SInvalidPSDHeader 64558
+#define CCR_Exif_Consts_SInvalidTiffData 64559
+#define c_MarkSystem_rsSMLMarksDbName 64560
+#define c_MarkSystem_rsORMSQLiteMarksDbName 64561
+#define c_MarkSystem_rsORMMongoDbMarksDbName 64562
+#define c_MarkSystem_rsORMODBCMarksDbName 64563
+#define c_MarkSystem_rsORMZDBCMarksDbName 64564
+#define u_MapCalibrationOzi_rsOziMapCalibrationDescription 64565
+#define u_TileStorageInRAM_rsMemCacheNotAssigned 64566
+#define u_BerkeleyDBPool_rsObjectNotInPool 64567
+#define u_BerkeleyDBPool_rsNoAvailableObjects 64568
+#define u_BerkeleyDBPool_rsCantAcquireDB 64569
+#define u_BerkeleyDBPool_rsPoolIsDesabled 64570
+#define u_BerkeleyDBPool_rsCantUseOldPoolRecord 64571
+#define u_TileStorageTypeListSimple_rsSASPlanetCacheName 64572
+#define u_TileStorageTypeListSimple_rsGoogleMVCacheName 64573
+#define u_TileStorageTypeListSimple_rsEarthSlicerCacheName 64574
+#define u_TileStorageTypeListSimple_rsGlobalMapperCacheName 64575
+#define uPSRuntime_RPS_CannotCastObject 64576
+#define uPSRuntime_RPS_CapacityLength 64577
+#define uPSRuntime_RPS_NILInterfaceException 64578
+#define uPSRuntime_RPS_UnknownMethod 64579
+#define uPSC_dll_RPS_Invalid_External 64580
+#define uPSC_dll_RPS_InvalidCallingConvention 64581
+#define frm_PascalScriptIDE_rsSuccessfullyCompiled 64582
+#define frm_PascalScriptIDE_rsSuccessfullyExecuted 64583
+#define frm_PascalScriptIDE_rsCanCloseQuery 64584
+#define frm_UpdateChecker_rsError 64585
+#define frm_UpdateChecker_rsSearchAvailableVersionInfo 64586
+#define frm_UpdateChecker_rsDownloadProgressInfo 64587
+#define frm_UpdateChecker_rsDownloadFinished 64588
+#define SynCommons_sValidationFailed 64589
+#define SynCommons_sValidationFieldVoid 64590
+#define SynCommons_sValidationFieldDuplicate 64591
+#define uPSRuntime_RPS_OutOfStackRange 64592
+#define uPSRuntime_RPS_TypeMismatch 64593
+#define uPSRuntime_RPS_UnexpectedEof 64594
+#define uPSRuntime_RPS_VersionError 64595
+#define uPSRuntime_RPS_DivideByZero 64596
+#define uPSRuntime_RPS_MathError 64597
+#define uPSRuntime_RPS_CouldNotCallProc 64598
+#define uPSRuntime_RPS_OutofRecordRange 64599
+#define uPSRuntime_RPS_NullPointerException 64600
+#define uPSRuntime_RPS_NullVariantError 64601
+#define uPSRuntime_RPS_OutOfMemory 64602
+#define uPSRuntime_RPS_InterfaceNotSupported 64603
+#define uPSRuntime_RPS_UnknownError 64604
+#define uPSRuntime_RPS_InvalidArray 64605
+#define uPSRuntime_RPS_OutOfStringRange 64606
+#define uPSRuntime_RPS_CannotCastInterface 64607
+#define uPSCompiler_RPS_CalculationAlwaysEvaluatesTo 64608
+#define uPSCompiler_RPS_IsNotNeeded 64609
+#define uPSCompiler_RPS_AbstractClass 64610
+#define uPSCompiler_RPS_UnknownWarning 64611
+#define uPSRuntime_RPS_Exception 64612
+#define uPSRuntime_RPS_NoError 64613
+#define uPSRuntime_RPS_CannotImport 64614
+#define uPSRuntime_RPS_InvalidType 64615
+#define uPSRuntime_RPS_InternalError 64616
+#define uPSRuntime_RPS_InvalidHeader 64617
+#define uPSRuntime_RPS_InvalidOpcode 64618
+#define uPSRuntime_RPS_InvalidOpcodeParameter 64619
+#define uPSRuntime_RPS_NoMainProc 64620
+#define uPSRuntime_RPS_OutOfGlobalVarsRange 64621
+#define uPSRuntime_RPS_OutOfProcRange 64622
+#define uPSRuntime_RPS_OutOfRange 64623
+#define uPSCompiler_RPS_InvalidJump 64624
+#define uPSCompiler_RPS_OpenBlockExpected 64625
+#define uPSCompiler_RPS_WriteOnlyProperty 64626
+#define uPSCompiler_RPS_ReadOnlyProperty 64627
+#define uPSCompiler_RPS_ClassTypeExpected 64628
+#define uPSCompiler_RPS_DivideByZero 64629
+#define uPSCompiler_RPS_MathError 64630
+#define uPSCompiler_RPS_UnsatisfiedForward 64631
+#define uPSCompiler_RPS_ForwardParameterMismatch 64632
+#define uPSCompiler_RPS_InvalidNumberOfParameter 64633
+#define uPSCompiler_RPS_UnknownError 64634
+#define uPSCompiler_RPS_Hint 64635
+#define uPSCompiler_RPS_VariableNotUsed 64636
+#define uPSCompiler_RPS_FunctionNotUsed 64637
+#define uPSCompiler_RPS_UnknownHint 64638
+#define uPSCompiler_RPS_Warning 64639
+#define uPSCompiler_RPS_InternalError 64640
+#define uPSCompiler_RPS_AssignmentExpected 64641
+#define uPSCompiler_RPS_ThenExpected 64642
+#define uPSCompiler_RPS_DoExpected 64643
+#define uPSCompiler_RPS_NoResult 64644
+#define uPSCompiler_RPS_OpenRoundExpected 64645
+#define uPSCompiler_RPS_CommaExpected 64646
+#define uPSCompiler_RPS_ToExpected 64647
+#define uPSCompiler_RPS_IsExpected 64648
+#define uPSCompiler_RPS_OfExpected 64649
+#define uPSCompiler_RPS_CloseBlockExpected 64650
+#define uPSCompiler_RPS_VariableExpected 64651
+#define uPSCompiler_RPS_StringExpected 64652
+#define uPSCompiler_RPS_EndExpected 64653
+#define uPSCompiler_RPS_UnSetLabel 64654
+#define uPSCompiler_RPS_NotInLoop 64655
+#define uPSCompiler_RPS_Error 64656
+#define uPSCompiler_RPS_UnknownIdentifier 64657
+#define uPSCompiler_RPS_IdentifierExpected 64658
+#define uPSCompiler_RPS_CommentError 64659
+#define uPSCompiler_RPS_StringError 64660
+#define uPSCompiler_RPS_CharError 64661
+#define uPSCompiler_RPS_SyntaxError 64662
+#define uPSCompiler_RPS_EOF 64663
+#define uPSCompiler_RPS_SemiColonExpected 64664
+#define uPSCompiler_RPS_BeginExpected 64665
+#define uPSCompiler_RPS_PeriodExpected 64666
+#define uPSCompiler_RPS_DuplicateIdent 64667
+#define uPSCompiler_RPS_ColonExpected 64668
+#define uPSCompiler_RPS_UnknownType 64669
+#define uPSCompiler_RPS_CloseRoundExpected 64670
+#define uPSCompiler_RPS_TypeMismatch 64671
+#define clipper_rsOpenPath3 64672
 #define fr_MergePolygons_rsSubject 64673
 #define fr_MergePolygons_rsClip 64674
 #define fr_MergePolygons_rsErrorNeedMerge 64675
@@ -174,71 +174,71 @@
 #define fr_MergePolygons_rsMergeFail 64677
 #define fr_MergePolygons_rsMergeFinish 64678
 #define fr_MergePolygons_rsProcessedAt 64679
-#define frm_About_rsDevelopmentTeam 64680
-#define uPSUtils_RPS_InvalidFloat 64681
-#define uPSRuntime_RPS_Exception 64682
-#define uPSRuntime_RPS_NoError 64683
-#define uPSRuntime_RPS_CannotImport 64684
-#define uPSRuntime_RPS_InvalidType 64685
-#define uPSRuntime_RPS_InternalError 64686
-#define uPSRuntime_RPS_InvalidHeader 64687
-#define XMLConst_SNodeNotFound 64688
-#define XMLConst_SMissingNode 64689
-#define XMLConst_SNoAttributes 64690
-#define XMLConst_SInvalidNodeType 64691
-#define XMLConst_SMismatchedRegItems 64692
-#define XMLConst_SNotSingleTextNode 64693
-#define XMLConst_SNoDOMParseOptions 64694
-#define XMLConst_SNodeReadOnly 64695
-#define XMLConst_SNoRefresh 64696
-#define XMLConst_SMissingFileName 64697
-#define XMLConst_SLine 64698
-#define clipper_rsDoMaxima 64699
-#define clipper_rsUpdateEdgeIntoAEL 64700
-#define clipper_rsInvalidInt 64701
-#define clipper_rsOpenPath2 64702
-#define clipper_rsOpenPath3 64703
-#define XMLConst_SINVALID_CHARACTER_ERR 64704
-#define XMLConst_SNO_DATA_ALLOWED_ERR 64705
-#define XMLConst_SNO_MODIFICATION_ALLOWED_ERR 64706
-#define XMLConst_SNOT_FOUND_ERR 64707
-#define XMLConst_SNOT_SUPPORTED_ERR 64708
-#define XMLConst_SINUSE_ATTRIBUTE_ERR 64709
-#define XMLConst_SINVALID_STATE_ERR 64710
-#define XMLConst_SSYNTAX_ERR 64711
-#define XMLConst_SINVALID_MODIFICATION_ERR 64712
-#define XMLConst_SNAMESPACE_ERR 64713
-#define XMLConst_SINVALID_ACCESS_ERR 64714
-#define XMLConst_SBadTransformArgs 64715
-#define XMLConst_SErrorWritingFile 64716
-#define XMLConst_SUnhandledXercesErr 64717
-#define XMLConst_SDOMError 64718
-#define XMLConst_SNotActive 64719
-#define cUnicodeCodecs_SCannotConvert 64720
-#define cUnicodeCodecs_SCannotConvertUCS4 64721
-#define cUnicodeCodecs_SInvalidCodePoint 64722
-#define cUnicodeCodecs_SInvalidEncoding 64723
-#define cUnicodeCodecs_SEncodingOutOfRange 64724
-#define cUnicodeCodecs_SUTF8Error 64725
-#define XMLConst_SDuplicateRegistration 64726
-#define XMLConst_SNoMatchingDOMVendor 64727
-#define XMLConst_SNoDOMNodeEx 64728
-#define XMLConst_SDOMNotSupported 64729
-#define XMLConst_SNodeExpected 64730
-#define XMLConst_SMSDOMNotInstalled 64731
-#define XMLConst_SINDEX_SIZE_ERR 64732
-#define XMLConst_SDOMSTRING_SIZE_ERR 64733
-#define XMLConst_SHIERARCHY_REQUEST_ERR 64734
-#define XMLConst_SWRONG_DOCUMENT_ERR 64735
-#define SynEditStrConst_SYNS_FilterPascal 64736
-#define SynEditStrConst_SYNS_FilterHTML 64737
-#define SynEditStrConst_SYNS_FilterINI 64738
-#define SynEditStrConst_SYNS_FriendlyLangHTML 64739
-#define SynEditStrConst_SYNS_FriendlyLangPascal 64740
-#define SynEditStrConst_SYNS_FriendlyLangINI 64741
-#define SynEditStrConst_SYNS_FriendlyLangUnknown 64742
-#define SynEditTextBuffer_SListIndexOutOfBounds 64743
-#define SynEditTextBuffer_SInvalidCapacity 64744
+#define uPSUtils_RPS_InvalidFloat 64680
+#define uPSCompiler_RPS_OnUseEventOnly 64681
+#define uPSCompiler_RPS_UnableToRegisterFunction 64682
+#define uPSCompiler_RPS_UnableToRegisterConst 64683
+#define uPSCompiler_RPS_InvalidTypeForVar 64684
+#define uPSCompiler_RPS_InvalidType 64685
+#define uPSCompiler_RPS_UnableToRegisterType 64686
+#define uPSCompiler_RPS_UnknownInterface 64687
+#define XMLConst_SNoDOMParseOptions 64688
+#define XMLConst_SNodeReadOnly 64689
+#define XMLConst_SNoRefresh 64690
+#define XMLConst_SMissingFileName 64691
+#define XMLConst_SLine 64692
+#define cUnicodeCodecs_SCannotConvert 64693
+#define cUnicodeCodecs_SCannotConvertUCS4 64694
+#define cUnicodeCodecs_SInvalidCodePoint 64695
+#define cUnicodeCodecs_SInvalidEncoding 64696
+#define cUnicodeCodecs_SEncodingOutOfRange 64697
+#define cUnicodeCodecs_SUTF8Error 64698
+#define frm_MergePolygonsProgress_rsElapsedTime 64699
+#define clipper_rsDoMaxima 64700
+#define clipper_rsUpdateEdgeIntoAEL 64701
+#define clipper_rsInvalidInt 64702
+#define clipper_rsOpenPath2 64703
+#define XMLConst_SINVALID_STATE_ERR 64704
+#define XMLConst_SSYNTAX_ERR 64705
+#define XMLConst_SINVALID_MODIFICATION_ERR 64706
+#define XMLConst_SNAMESPACE_ERR 64707
+#define XMLConst_SINVALID_ACCESS_ERR 64708
+#define XMLConst_SBadTransformArgs 64709
+#define XMLConst_SErrorWritingFile 64710
+#define XMLConst_SUnhandledXercesErr 64711
+#define XMLConst_SDOMError 64712
+#define XMLConst_SNotActive 64713
+#define XMLConst_SNodeNotFound 64714
+#define XMLConst_SMissingNode 64715
+#define XMLConst_SNoAttributes 64716
+#define XMLConst_SInvalidNodeType 64717
+#define XMLConst_SMismatchedRegItems 64718
+#define XMLConst_SNotSingleTextNode 64719
+#define XMLConst_SDuplicateRegistration 64720
+#define XMLConst_SNoMatchingDOMVendor 64721
+#define XMLConst_SNoDOMNodeEx 64722
+#define XMLConst_SDOMNotSupported 64723
+#define XMLConst_SNodeExpected 64724
+#define XMLConst_SMSDOMNotInstalled 64725
+#define XMLConst_SINDEX_SIZE_ERR 64726
+#define XMLConst_SDOMSTRING_SIZE_ERR 64727
+#define XMLConst_SHIERARCHY_REQUEST_ERR 64728
+#define XMLConst_SWRONG_DOCUMENT_ERR 64729
+#define XMLConst_SINVALID_CHARACTER_ERR 64730
+#define XMLConst_SNO_DATA_ALLOWED_ERR 64731
+#define XMLConst_SNO_MODIFICATION_ALLOWED_ERR 64732
+#define XMLConst_SNOT_FOUND_ERR 64733
+#define XMLConst_SNOT_SUPPORTED_ERR 64734
+#define XMLConst_SINUSE_ATTRIBUTE_ERR 64735
+#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorLonLatParserError 64736
+#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorLonLatOutOfBounds 64737
+#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorZoomParserError 64738
+#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorZoomOutOfBounds 64739
+#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorGUIDParserError 64740
+#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorUnknownGUID 64741
+#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorShowMarksParserError 64742
+#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorUnknownError 64743
+#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorSASExceptionRaised 64744
 #define Compatibility_rsInvalidSourceArray 64745
 #define Compatibility_rsInvalidDestinationArray 64746
 #define Compatibility_rsCharIndexOutOfBoundsFmt 64747
@@ -246,54 +246,54 @@
 #define Compatibility_rsInvalidCharCountFmt 64749
 #define Compatibility_rsInvalidDestinationIndexFmt 64750
 #define Compatibility_rsInvalidCodePage 64751
-#define SynEditStrConst_SYNS_FriendlyAttrHexadecimal 64752
-#define SynEditStrConst_SYNS_FriendlyAttrIdentifier 64753
-#define SynEditStrConst_SYNS_FriendlyAttrKey 64754
-#define SynEditStrConst_SYNS_FriendlyAttrNumber 64755
-#define SynEditStrConst_SYNS_FriendlyAttrPreprocessor 64756
-#define SynEditStrConst_SYNS_FriendlyAttrReservedWord 64757
-#define SynEditStrConst_SYNS_FriendlyAttrSection 64758
-#define SynEditStrConst_SYNS_FriendlyAttrSpace 64759
-#define SynEditStrConst_SYNS_FriendlyAttrString 64760
-#define SynEditStrConst_SYNS_FriendlyAttrSymbol 64761
-#define SynEditStrConst_SYNS_FriendlyAttrText 64762
-#define SynEditStrConst_SYNS_FriendlyAttrUnknownWord 64763
-#define SynEditStrConst_SYNS_FriendlyAttrValue 64764
-#define SynEditStrConst_SYNS_ScrollInfoFmt 64765
-#define SynEditStrConst_SYNS_ScrollInfoFmtTop 64766
-#define SynEditStrConst_SYNS_EDuplicateShortcut 64767
-#define TBXGraphicsPNG_SInvalidColorFormat 64768
-#define TBXGraphicsPNG_SUnsupportedCompressionScheme 64769
-#define TBXGraphicsPNG_SInvalidCRC 64770
-#define TBXGraphicsPNG_SCompressionError 64771
-#define TBXGraphicsPNG_SInvalidPalette 64772
-#define TBXGraphicsPNG_SUnknownCriticalChunk 64773
-#define TBXGraphicsPNG_SExtraCompressedData 64774
-#define TBXGraphicsPNG_SInvalidPaletteIndex 64775
-#define TBXGraphicsPNG_SInvalidDimensions 64776
-#define TBXGraphics_SInvalidParameters 64777
-#define TBXGraphics_SInvalidImageDimensions 64778
-#define SynEditStrConst_SYNS_FriendlyAttrAssembler 64779
-#define SynEditStrConst_SYNS_FriendlyAttrCharacter 64780
-#define SynEditStrConst_SYNS_FriendlyAttrComment 64781
-#define SynEditStrConst_SYNS_FriendlyAttrEscapeAmpersand 64782
-#define SynEditStrConst_SYNS_FriendlyAttrFloat 64783
-#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorZoomParserError 64784
-#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorZoomOutOfBounds 64785
-#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorGUIDParserError 64786
-#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorUnknownGUID 64787
-#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorShowMarksParserError 64788
-#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorUnknownError 64789
-#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorSASExceptionRaised 64790
-#define TB2Consts_STBToolbarIndexOutOfBounds 64791
-#define TB2Consts_STBToolbarItemReinserted 64792
-#define TB2Consts_STBToolbarItemParentInvalid 64793
-#define TB2Consts_STBViewerNotFound 64794
-#define TB2Consts_STBChevronItemMoreButtonsHint 64795
-#define TB2Consts_STBDockParentNotAllowed 64796
-#define TB2Consts_STBDockCannotChangePosition 64797
-#define TB2Consts_STBToolwinDockedToNameNotSet 64798
-#define TBXGraphicsPNG_SInvalidImage 64799
+#define TB2Consts_STBChevronItemMoreButtonsHint 64752
+#define TB2Consts_STBDockParentNotAllowed 64753
+#define TB2Consts_STBDockCannotChangePosition 64754
+#define TB2Consts_STBToolwinDockedToNameNotSet 64755
+#define TBXGraphicsPNG_SInvalidImage 64756
+#define TBXGraphicsPNG_SInvalidColorFormat 64757
+#define TBXGraphicsPNG_SUnsupportedCompressionScheme 64758
+#define TBXGraphicsPNG_SInvalidCRC 64759
+#define TBXGraphicsPNG_SCompressionError 64760
+#define TBXGraphicsPNG_SInvalidPalette 64761
+#define TBXGraphicsPNG_SUnknownCriticalChunk 64762
+#define TBXGraphicsPNG_SExtraCompressedData 64763
+#define TBXGraphicsPNG_SInvalidPaletteIndex 64764
+#define TBXGraphicsPNG_SInvalidDimensions 64765
+#define TBXGraphics_SInvalidParameters 64766
+#define TBXGraphics_SInvalidImageDimensions 64767
+#define SynEditStrConst_SYNS_ScrollInfoFmt 64768
+#define SynEditStrConst_SYNS_ScrollInfoFmtTop 64769
+#define SynEditStrConst_SYNS_EDuplicateShortcut 64770
+#define SynEditStrConst_SYNS_FilterPascal 64771
+#define SynEditStrConst_SYNS_FilterHTML 64772
+#define SynEditStrConst_SYNS_FilterINI 64773
+#define SynEditStrConst_SYNS_FriendlyLangHTML 64774
+#define SynEditStrConst_SYNS_FriendlyLangPascal 64775
+#define SynEditStrConst_SYNS_FriendlyLangINI 64776
+#define SynEditStrConst_SYNS_FriendlyLangUnknown 64777
+#define SynEditTextBuffer_SListIndexOutOfBounds 64778
+#define SynEditTextBuffer_SInvalidCapacity 64779
+#define TB2Consts_STBToolbarIndexOutOfBounds 64780
+#define TB2Consts_STBToolbarItemReinserted 64781
+#define TB2Consts_STBToolbarItemParentInvalid 64782
+#define TB2Consts_STBViewerNotFound 64783
+#define SynEditStrConst_SYNS_FriendlyAttrComment 64784
+#define SynEditStrConst_SYNS_FriendlyAttrEscapeAmpersand 64785
+#define SynEditStrConst_SYNS_FriendlyAttrFloat 64786
+#define SynEditStrConst_SYNS_FriendlyAttrHexadecimal 64787
+#define SynEditStrConst_SYNS_FriendlyAttrIdentifier 64788
+#define SynEditStrConst_SYNS_FriendlyAttrKey 64789
+#define SynEditStrConst_SYNS_FriendlyAttrNumber 64790
+#define SynEditStrConst_SYNS_FriendlyAttrPreprocessor 64791
+#define SynEditStrConst_SYNS_FriendlyAttrReservedWord 64792
+#define SynEditStrConst_SYNS_FriendlyAttrSection 64793
+#define SynEditStrConst_SYNS_FriendlyAttrSpace 64794
+#define SynEditStrConst_SYNS_FriendlyAttrString 64795
+#define SynEditStrConst_SYNS_FriendlyAttrSymbol 64796
+#define SynEditStrConst_SYNS_FriendlyAttrText 64797
+#define SynEditStrConst_SYNS_FriendlyAttrUnknownWord 64798
+#define SynEditStrConst_SYNS_FriendlyAttrValue 64799
 #define ComStrs_sTabFailSetObject 64800
 #define ComStrs_sTabMustBeMultiLine 64801
 #define ComStrs_sInvalidIndex 64802
@@ -308,8 +308,8 @@
 #define ComStrs_sFailSetCalMaxSelRange 64811
 #define ComStrs_sFailSetCalMinMaxRange 64812
 #define ComStrs_sFailsetCalSelRange 64813
-#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorLonLatParserError 64814
-#define u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorLonLatOutOfBounds 64815
+#define SynEditStrConst_SYNS_FriendlyAttrAssembler 64814
+#define SynEditStrConst_SYNS_FriendlyAttrCharacter 64815
 #define u_ResStrings_SAS_UNITS_kb 64816
 #define u_ResStrings_SAS_UNITS_mb 64817
 #define u_ResStrings_SAS_UNITS_gb 64818
@@ -557,11 +557,11 @@
 #define u_GUIDSet_SListCountError 65060
 #define u_GUIDInterfaceSet_SInterfaceIsNilError 65061
 #define u_GUIDObjectSet_SObjectIsNilError 65062
-#define GR32_Resamplers_SDstNil 65063
-#define GR32_Resamplers_SSrcNil 65064
-#define GR32_Resamplers_RCStrInvalidSrcRect 65065
-#define GR32_Transforms_RCStrReverseTransformationNotImplemented 65066
-#define GR32_Transforms_RCStrForwardTransformationNotImplemented 65067
+#define GR32_Transforms_RCStrReverseTransformationNotImplemented 65063
+#define GR32_Transforms_RCStrForwardTransformationNotImplemented 65064
+#define GR32_Resamplers_SDstNil 65065
+#define GR32_Resamplers_SSrcNil 65066
+#define GR32_Resamplers_RCStrInvalidSrcRect 65067
 #define GR32_Backends_RCStrCannotAllocateDIBHandle 65068
 #define GR32_Backends_RCStrCannotCreateCompatibleDC 65069
 #define GR32_Backends_RCStrCannotSelectAnObjectIntoDC 65070
@@ -1032,13 +1032,6 @@
 #define SysConst_SAccessDenied 65535
 STRINGTABLE
 BEGIN
-	u_LayerScaleLinePopupMenu_rsHideScaleLegend,	"Hide Scale Legend"
-	u_LayerScaleLinePopupMenu_rsOptions,	"Options..."
-	u_LayerStatBarPopupMenu_rsShowZoomInfo,	"Show Zoom Info"
-	u_LayerStatBarPopupMenu_rsShowLonLatInfo,	"Show LonLat Info"
-	u_LayerStatBarPopupMenu_rsShowMeterPerPixelInfo,	"Show Meter Per Pixel Info"
-	u_LayerStatBarPopupMenu_rsShowElevationInfo,	"Show Elevation Info"
-	u_LayerStatBarPopupMenu_rsShowTimeZoneInfo,	"Show Time Zone Info"
 	u_LayerStatBarPopupMenu_rsShowDownloadInfo,	"Show Download Info"
 	u_LayerStatBarPopupMenu_rsShowQueueInfo,	"Show Queue Info"
 	u_LayerStatBarPopupMenu_rsShowTilePathInfo,	"Show Tile Path Info"
@@ -1046,30 +1039,29 @@ BEGIN
 	u_LayerStatBarPopupMenu_rsOptions,	"Options..."
 	u_LayerStatBarPopupMenu_rsAnyAvailableElevationSource,	"Any Available Source"
 	u_LayerStatBarPopupMenu_rsDisableElevationInfo,	"Disable"
-	u_TileStorageTypeListSimple_rsBerkeleyDBVersionedCacheName,	"BerkeleyDB (Versioned)"
-	u_TileStorageTypeListSimple_rsMobileAtlasCacheName,	"Mobile Atlas Creator (MOBAC)"
-	u_TileStorageTypeListSimple_rsDBMSCacheName,	"DBMS"
-	u_TileStorageTypeListSimple_rsRAMCacheName,	"RAM"
-	frm_UpdateChecker_rsError,	"Error"
-	frm_UpdateChecker_rsSearchAvailableVersionInfo,	"searching"
-	frm_UpdateChecker_rsDownloadProgressInfo,	"%s %.2f of %.2f MB (%.2f%s)"
-	frm_UpdateChecker_rsDownloadFinished,	"Download completed successfully. You can update the program manually from file: %s"
-	frm_PascalScriptIDE_rsSuccessfullyCompiled,	"Successfully compiled"
-	frm_PascalScriptIDE_rsSuccessfullyExecuted,	"Successfully executed"
-	frm_PascalScriptIDE_rsCanCloseQuery,	"ZMP has been modified, but not saved yet!\r\n\r\nDo you really want to close without saving?"
 	u_LayerScaleLinePopupMenu_rsShowVerticalScaleLegend,	"Show Vertical Scale Legend"
 	u_LayerScaleLinePopupMenu_rsNumbersFormat,	"Numbers Format"
 	u_LayerScaleLinePopupMenu_rsNice,	"Nice"
 	u_LayerScaleLinePopupMenu_rsRound,	"Round"
 	u_LayerScaleLinePopupMenu_rsScience,	"Science"
+	u_LayerScaleLinePopupMenu_rsHideScaleLegend,	"Hide Scale Legend"
+	u_LayerScaleLinePopupMenu_rsOptions,	"Options..."
+	CCR_Exif_Consts_STagAlreadyExists,	"Tag with ID of \"%d\" already exists in section"
+	CCR_Exif_Consts_SIllegalEditOfExifData,	"Illegal attempt to edit the Exif data in such a way that it would change the file structure"
+	CCR_Exif_Consts_STagCanContainOnlyASCII,	"Tag may contain only ASCII string data"
+	CCR_Exif_Consts_SInvalidMakerNoteFormat,	"Invalid MakerNote format"
+	CCR_Exif_Consts_SInvalidXMPPacket,	"XMP packet is not valid"
+	CCR_Exif_Consts_SSubPropertiesMustBeNamed,	"Sub-properties must be named"
 	CCR_Exif_Consts_SSubPropertiesNotSupported,	"Property type does not support sub-properties"
 	CCR_Exif_Consts_SCannotWriteSingleValueToStructureProperty,	"Cannot assign a single value to a structure property"
 	CCR_Exif_Consts_SPreferredPrefixMustBeSet,	"The schema's PreferredPrefix property must be set before a new item can be added"
-	u_TileStorageInRAM_rsMemCacheNotAssigned,	"Can't initialize in-memory tile storage. Check your config!"
-	u_TileStorageTypeListSimple_rsSASPlanetCacheName,	"SAS.Planet"
-	u_TileStorageTypeListSimple_rsGoogleMVCacheName,	"GoogleMV"
-	u_TileStorageTypeListSimple_rsEarthSlicerCacheName,	"EarthSlicer 1.95"
-	u_TileStorageTypeListSimple_rsGlobalMapperCacheName,	"GlobalMapper Tiles"
+	u_MapCalibrationTab_rsTabMapCalibrationDescription,	"Calibration for MapInfo programm (*.tab)"
+	frm_About_rsDevelopmentTeam,	"SAS.Planet Development Team"
+	u_LayerStatBarPopupMenu_rsShowZoomInfo,	"Show Zoom Info"
+	u_LayerStatBarPopupMenu_rsShowLonLatInfo,	"Show LonLat Info"
+	u_LayerStatBarPopupMenu_rsShowMeterPerPixelInfo,	"Show Meter Per Pixel Info"
+	u_LayerStatBarPopupMenu_rsShowElevationInfo,	"Show Elevation Info"
+	u_LayerStatBarPopupMenu_rsShowTimeZoneInfo,	"Show Time Zone Info"
 	u_TileStorageTypeListSimple_rsGlobalMapperAuxCacheName,	"GlobalMapper Aux"
 	u_TileStorageTypeListSimple_rsGlobalMapperBingCacheName,	"GlobalMapper Bing"
 	u_TileStorageTypeListSimple_rsOsmAndCacheName,	"OsmAnd+ Tiles"
@@ -1078,39 +1070,78 @@ BEGIN
 	u_TileStorageTypeListSimple_rsGoogleEarthTerrainCacheName,	"GoogleEarth Terrain"
 	u_TileStorageTypeListSimple_rsGeoCacherCacheName,	"GeoCacher"
 	u_TileStorageTypeListSimple_rsBerkeleyDBCacheName,	"BerkeleyDB"
-	u_MapCalibrationTab_rsTabMapCalibrationDescription,	"Calibration for MapInfo programm (*.tab)"
-	u_BerkeleyDBPool_rsObjectNotInPool,	"Can't release an object that is not in the pool!"
-	u_BerkeleyDBPool_rsNoAvailableObjects,	"There are no available objects in the pool!"
-	u_BerkeleyDBPool_rsCantAcquireDB,	"Can't acquire db: %s"
-	u_BerkeleyDBPool_rsPoolIsDesabled,	"Pool Disabled - Can't acquire db: %s"
-	u_BerkeleyDBPool_rsCantUseOldPoolRecord,	"Can't use old pool record!"
+	u_TileStorageTypeListSimple_rsBerkeleyDBVersionedCacheName,	"BerkeleyDB (Versioned)"
+	u_TileStorageTypeListSimple_rsMobileAtlasCacheName,	"Mobile Atlas Creator (MOBAC)"
+	u_TileStorageTypeListSimple_rsDBMSCacheName,	"DBMS"
+	u_TileStorageTypeListSimple_rsRAMCacheName,	"RAM"
 	CCR_Exif_Consts_SStreamIsReadOnly,	"Stream is read-only"
 	CCR_Exif_Consts_SInvalidJPEGHeader,	"JPEG header is not valid"
 	CCR_Exif_Consts_SInvalidPSDHeader,	"Photoshop (PSD) file header is not valid"
 	CCR_Exif_Consts_SInvalidTiffData,	"Invalid TIFF data"
-	CCR_Exif_Consts_STagAlreadyExists,	"Tag with ID of \"%d\" already exists in section"
-	CCR_Exif_Consts_SIllegalEditOfExifData,	"Illegal attempt to edit the Exif data in such a way that it would change the file structure"
-	CCR_Exif_Consts_STagCanContainOnlyASCII,	"Tag may contain only ASCII string data"
-	CCR_Exif_Consts_SInvalidMakerNoteFormat,	"Invalid MakerNote format"
-	CCR_Exif_Consts_SInvalidXMPPacket,	"XMP packet is not valid"
-	CCR_Exif_Consts_SSubPropertiesMustBeNamed,	"Sub-properties must be named"
-	uPSCompiler_RPS_Warning,	"Warning"
-	uPSCompiler_RPS_CalculationAlwaysEvaluatesTo,	"Calculation always evaluates to %s"
-	uPSCompiler_RPS_IsNotNeeded,	"%s is not needed"
-	uPSCompiler_RPS_AbstractClass,	"Abstract Class Construction"
-	uPSCompiler_RPS_UnknownWarning,	"Unknown warning"
-	uPSC_dll_RPS_Invalid_External,	"Invalid External"
-	uPSC_dll_RPS_InvalidCallingConvention,	"Invalid Calling Convention"
 	c_MarkSystem_rsSMLMarksDbName,	"SML"
 	c_MarkSystem_rsORMSQLiteMarksDbName,	"SQLite3"
 	c_MarkSystem_rsORMMongoDbMarksDbName,	"MongoDB"
 	c_MarkSystem_rsORMODBCMarksDbName,	"DBMS (ODBC driver)"
 	c_MarkSystem_rsORMZDBCMarksDbName,	"DBMS (Native driver)"
+	u_MapCalibrationOzi_rsOziMapCalibrationDescription,	"Calibration for OziExplorer programm (*.map)"
+	u_TileStorageInRAM_rsMemCacheNotAssigned,	"Can't initialize in-memory tile storage. Check your config!"
+	u_BerkeleyDBPool_rsObjectNotInPool,	"Can't release an object that is not in the pool!"
+	u_BerkeleyDBPool_rsNoAvailableObjects,	"There are no available objects in the pool!"
+	u_BerkeleyDBPool_rsCantAcquireDB,	"Can't acquire db: %s"
+	u_BerkeleyDBPool_rsPoolIsDesabled,	"Pool Disabled - Can't acquire db: %s"
+	u_BerkeleyDBPool_rsCantUseOldPoolRecord,	"Can't use old pool record!"
+	u_TileStorageTypeListSimple_rsSASPlanetCacheName,	"SAS.Planet"
+	u_TileStorageTypeListSimple_rsGoogleMVCacheName,	"GoogleMV"
+	u_TileStorageTypeListSimple_rsEarthSlicerCacheName,	"EarthSlicer 1.95"
+	u_TileStorageTypeListSimple_rsGlobalMapperCacheName,	"GlobalMapper Tiles"
+	uPSRuntime_RPS_CannotCastObject,	"Cannot cast an object"
+	uPSRuntime_RPS_CapacityLength,	"Capacity < Length"
+	uPSRuntime_RPS_NILInterfaceException,	"Nil interface"
+	uPSRuntime_RPS_UnknownMethod,	"Unknown method"
+	uPSC_dll_RPS_Invalid_External,	"Invalid External"
+	uPSC_dll_RPS_InvalidCallingConvention,	"Invalid Calling Convention"
+	frm_PascalScriptIDE_rsSuccessfullyCompiled,	"Successfully compiled"
+	frm_PascalScriptIDE_rsSuccessfullyExecuted,	"Successfully executed"
+	frm_PascalScriptIDE_rsCanCloseQuery,	"ZMP has been modified, but not saved yet!\r\n\r\nDo you really want to close without saving?"
+	frm_UpdateChecker_rsError,	"Error"
+	frm_UpdateChecker_rsSearchAvailableVersionInfo,	"searching"
+	frm_UpdateChecker_rsDownloadProgressInfo,	"%s %.2f of %.2f MB (%.2f%s)"
+	frm_UpdateChecker_rsDownloadFinished,	"Download completed successfully. You can update the program manually from file: %s"
 	SynCommons_sValidationFailed,	"\"%s\" rule failed"
 	SynCommons_sValidationFieldVoid,	"An unique key field must not be void"
 	SynCommons_sValidationFieldDuplicate,	"Value already used for this unique key field"
-	u_MapCalibrationOzi_rsOziMapCalibrationDescription,	"Calibration for OziExplorer programm (*.map)"
-	uPSCompiler_RPS_NotInLoop,	"Not in a loop"
+	uPSRuntime_RPS_OutOfStackRange,	"Out Of Stack Range"
+	uPSRuntime_RPS_TypeMismatch,	"Type Mismatch"
+	uPSRuntime_RPS_UnexpectedEof,	"Unexpected End Of File"
+	uPSRuntime_RPS_VersionError,	"Version error"
+	uPSRuntime_RPS_DivideByZero,	"divide by Zero"
+	uPSRuntime_RPS_MathError,	"Math error"
+	uPSRuntime_RPS_CouldNotCallProc,	"Could not call proc"
+	uPSRuntime_RPS_OutofRecordRange,	"Out of Record Fields Range"
+	uPSRuntime_RPS_NullPointerException,	"Null Pointer Exception"
+	uPSRuntime_RPS_NullVariantError,	"Null variant error"
+	uPSRuntime_RPS_OutOfMemory,	"Out Of Memory"
+	uPSRuntime_RPS_InterfaceNotSupported,	"Interface not supported"
+	uPSRuntime_RPS_UnknownError,	"Unknown error"
+	uPSRuntime_RPS_InvalidArray,	"Invalid array"
+	uPSRuntime_RPS_OutOfStringRange,	"Out of string range"
+	uPSRuntime_RPS_CannotCastInterface,	"Cannot cast an interface"
+	uPSCompiler_RPS_CalculationAlwaysEvaluatesTo,	"Calculation always evaluates to %s"
+	uPSCompiler_RPS_IsNotNeeded,	"%s is not needed"
+	uPSCompiler_RPS_AbstractClass,	"Abstract Class Construction"
+	uPSCompiler_RPS_UnknownWarning,	"Unknown warning"
+	uPSRuntime_RPS_Exception,	"Exception: %s"
+	uPSRuntime_RPS_NoError,	"No Error"
+	uPSRuntime_RPS_CannotImport,	"Cannot Import %s"
+	uPSRuntime_RPS_InvalidType,	"Invalid Type"
+	uPSRuntime_RPS_InternalError,	"Internal error"
+	uPSRuntime_RPS_InvalidHeader,	"Invalid Header"
+	uPSRuntime_RPS_InvalidOpcode,	"Invalid Opcode"
+	uPSRuntime_RPS_InvalidOpcodeParameter,	"Invalid Opcode Parameter"
+	uPSRuntime_RPS_NoMainProc,	"no Main Proc"
+	uPSRuntime_RPS_OutOfGlobalVarsRange,	"Out of Global Vars range"
+	uPSRuntime_RPS_OutOfProcRange,	"Out of Proc Range"
+	uPSRuntime_RPS_OutOfRange,	"Out Of Range"
 	uPSCompiler_RPS_InvalidJump,	"Invalid jump"
 	uPSCompiler_RPS_OpenBlockExpected,	"Opening square brackets ('[') expected"
 	uPSCompiler_RPS_WriteOnlyProperty,	"Write-only property"
@@ -1126,7 +1157,7 @@ BEGIN
 	uPSCompiler_RPS_VariableNotUsed,	"Variable '%s' never used"
 	uPSCompiler_RPS_FunctionNotUsed,	"Function '%s' never used"
 	uPSCompiler_RPS_UnknownHint,	"Unknown hint"
-	uPSCompiler_RPS_TypeMismatch,	"Type mismatch"
+	uPSCompiler_RPS_Warning,	"Warning"
 	uPSCompiler_RPS_InternalError,	"Internal error (%s)"
 	uPSCompiler_RPS_AssignmentExpected,	"Assignment expected"
 	uPSCompiler_RPS_ThenExpected,	"'THEN' expected"
@@ -1142,7 +1173,7 @@ BEGIN
 	uPSCompiler_RPS_StringExpected,	"String Expected"
 	uPSCompiler_RPS_EndExpected,	"'END' expected"
 	uPSCompiler_RPS_UnSetLabel,	"Label '%s' not set"
-	uPSCompiler_RPS_UnknownInterface,	"Unknown interface: %s"
+	uPSCompiler_RPS_NotInLoop,	"Not in a loop"
 	uPSCompiler_RPS_Error,	"Error"
 	uPSCompiler_RPS_UnknownIdentifier,	"Unknown identifier '%s'"
 	uPSCompiler_RPS_IdentifierExpected,	"Identifier expected"
@@ -1158,39 +1189,8 @@ BEGIN
 	uPSCompiler_RPS_ColonExpected,	"colon (':') expected"
 	uPSCompiler_RPS_UnknownType,	"Unknown type '%s'"
 	uPSCompiler_RPS_CloseRoundExpected,	"Closing parenthesis expected"
-	uPSRuntime_RPS_OutOfMemory,	"Out Of Memory"
-	uPSRuntime_RPS_InterfaceNotSupported,	"Interface not supported"
-	uPSRuntime_RPS_UnknownError,	"Unknown error"
-	uPSRuntime_RPS_InvalidArray,	"Invalid array"
-	uPSRuntime_RPS_OutOfStringRange,	"Out of string range"
-	uPSRuntime_RPS_CannotCastInterface,	"Cannot cast an interface"
-	uPSRuntime_RPS_CannotCastObject,	"Cannot cast an object"
-	uPSRuntime_RPS_CapacityLength,	"Capacity < Length"
-	uPSRuntime_RPS_NILInterfaceException,	"Nil interface"
-	uPSRuntime_RPS_UnknownMethod,	"Unknown method"
-	uPSCompiler_RPS_OnUseEventOnly,	"This function can only be called from within the OnUses event"
-	uPSCompiler_RPS_UnableToRegisterFunction,	"Unable to register function %s"
-	uPSCompiler_RPS_UnableToRegisterConst,	"Unable to register constant %s"
-	uPSCompiler_RPS_InvalidTypeForVar,	"Invalid type for variable %s"
-	uPSCompiler_RPS_InvalidType,	"Invalid Type"
-	uPSCompiler_RPS_UnableToRegisterType,	"Unable to register type %s"
-	uPSRuntime_RPS_InvalidOpcode,	"Invalid Opcode"
-	uPSRuntime_RPS_InvalidOpcodeParameter,	"Invalid Opcode Parameter"
-	uPSRuntime_RPS_NoMainProc,	"no Main Proc"
-	uPSRuntime_RPS_OutOfGlobalVarsRange,	"Out of Global Vars range"
-	uPSRuntime_RPS_OutOfProcRange,	"Out of Proc Range"
-	uPSRuntime_RPS_OutOfRange,	"Out Of Range"
-	uPSRuntime_RPS_OutOfStackRange,	"Out Of Stack Range"
-	uPSRuntime_RPS_TypeMismatch,	"Type Mismatch"
-	uPSRuntime_RPS_UnexpectedEof,	"Unexpected End Of File"
-	uPSRuntime_RPS_VersionError,	"Version error"
-	uPSRuntime_RPS_DivideByZero,	"divide by Zero"
-	uPSRuntime_RPS_MathError,	"Math error"
-	uPSRuntime_RPS_CouldNotCallProc,	"Could not call proc"
-	uPSRuntime_RPS_OutofRecordRange,	"Out of Record Fields Range"
-	uPSRuntime_RPS_NullPointerException,	"Null Pointer Exception"
-	uPSRuntime_RPS_NullVariantError,	"Null variant error"
-	frm_MergePolygonsProgress_rsElapsedTime,	"Elapsed time: %s"
+	uPSCompiler_RPS_TypeMismatch,	"Type mismatch"
+	clipper_rsOpenPath3,	"Error: TPolyTree struct is need for open path clipping."
 	fr_MergePolygons_rsSubject,	"[subject]"
 	fr_MergePolygons_rsClip,	"[clip]"
 	fr_MergePolygons_rsErrorNeedMerge,	"You must MERGE polygons first!"
@@ -1198,36 +1198,30 @@ BEGIN
 	fr_MergePolygons_rsMergeFail,	"Merge failed!"
 	fr_MergePolygons_rsMergeFinish,	"Merge process completed successfully!\r\nResult contains %d polygon(s) with %d hole(s)"
 	fr_MergePolygons_rsProcessedAt,	"Processed at: %.8f sec."
-	frm_About_rsDevelopmentTeam,	"SAS.Planet Development Team"
 	uPSUtils_RPS_InvalidFloat,	"Invalid float"
-	uPSRuntime_RPS_Exception,	"Exception: %s"
-	uPSRuntime_RPS_NoError,	"No Error"
-	uPSRuntime_RPS_CannotImport,	"Cannot Import %s"
-	uPSRuntime_RPS_InvalidType,	"Invalid Type"
-	uPSRuntime_RPS_InternalError,	"Internal error"
-	uPSRuntime_RPS_InvalidHeader,	"Invalid Header"
-	XMLConst_SNodeNotFound,	"Node \"%s\" not found"
-	XMLConst_SMissingNode,	"IDOMNode required"
-	XMLConst_SNoAttributes,	"Attributes are not supported on this node type"
-	XMLConst_SInvalidNodeType,	"Invalid node type"
-	XMLConst_SMismatchedRegItems,	"Mismatched paramaters to RegisterChildNodes"
-	XMLConst_SNotSingleTextNode,	"Element does not contain a single text node"
+	uPSCompiler_RPS_OnUseEventOnly,	"This function can only be called from within the OnUses event"
+	uPSCompiler_RPS_UnableToRegisterFunction,	"Unable to register function %s"
+	uPSCompiler_RPS_UnableToRegisterConst,	"Unable to register constant %s"
+	uPSCompiler_RPS_InvalidTypeForVar,	"Invalid type for variable %s"
+	uPSCompiler_RPS_InvalidType,	"Invalid Type"
+	uPSCompiler_RPS_UnableToRegisterType,	"Unable to register type %s"
+	uPSCompiler_RPS_UnknownInterface,	"Unknown interface: %s"
 	XMLConst_SNoDOMParseOptions,	"DOM Implementation does not support IDOMParseOptions"
 	XMLConst_SNodeReadOnly,	"Node is readonly"
 	XMLConst_SNoRefresh,	"Refresh is only supported if the FileName or XML properties are set"
 	XMLConst_SMissingFileName,	"FileName cannot be blank"
 	XMLConst_SLine,	"Line"
+	cUnicodeCodecs_SCannotConvert,	"Unicode code point $%x has no equivalent in %s"
+	cUnicodeCodecs_SCannotConvertUCS4,	"Cannot convert $%8.8X to %s"
+	cUnicodeCodecs_SInvalidCodePoint,	"$%x is not a valid %s code point"
+	cUnicodeCodecs_SInvalidEncoding,	"Invalid %s encoding"
+	cUnicodeCodecs_SEncodingOutOfRange,	"%s encoding out of range"
+	cUnicodeCodecs_SUTF8Error,	"UTF-8 error %d"
+	frm_MergePolygonsProgress_rsElapsedTime,	"Elapsed time: %s"
 	clipper_rsDoMaxima,	"DoMaxima error"
 	clipper_rsUpdateEdgeIntoAEL,	"UpdateEdgeIntoAEL error"
 	clipper_rsInvalidInt,	"Coordinate exceeds range bounds"
 	clipper_rsOpenPath2,	"AddPath: Open paths have been disabled."
-	clipper_rsOpenPath3,	"Error: TPolyTree struct is need for open path clipping."
-	XMLConst_SINVALID_CHARACTER_ERR,	"Invalid character in name"
-	XMLConst_SNO_DATA_ALLOWED_ERR,	"No data allowed"
-	XMLConst_SNO_MODIFICATION_ALLOWED_ERR,	"No modification allowed (readonly data)"
-	XMLConst_SNOT_FOUND_ERR,	"Node not found"
-	XMLConst_SNOT_SUPPORTED_ERR,	"Not supported"
-	XMLConst_SINUSE_ATTRIBUTE_ERR,	"Attribute already associated with another element"
 	XMLConst_SINVALID_STATE_ERR,	"Invalid state"
 	XMLConst_SSYNTAX_ERR,	"Invalid syntax"
 	XMLConst_SINVALID_MODIFICATION_ERR,	"Invalid modification"
@@ -1238,12 +1232,12 @@ BEGIN
 	XMLConst_SUnhandledXercesErr,	"Unhandled Xerces DOM error (no message available): %d"
 	XMLConst_SDOMError,	"DOM Error: "
 	XMLConst_SNotActive,	"No active document"
-	cUnicodeCodecs_SCannotConvert,	"Unicode code point $%x has no equivalent in %s"
-	cUnicodeCodecs_SCannotConvertUCS4,	"Cannot convert $%8.8X to %s"
-	cUnicodeCodecs_SInvalidCodePoint,	"$%x is not a valid %s code point"
-	cUnicodeCodecs_SInvalidEncoding,	"Invalid %s encoding"
-	cUnicodeCodecs_SEncodingOutOfRange,	"%s encoding out of range"
-	cUnicodeCodecs_SUTF8Error,	"UTF-8 error %d"
+	XMLConst_SNodeNotFound,	"Node \"%s\" not found"
+	XMLConst_SMissingNode,	"IDOMNode required"
+	XMLConst_SNoAttributes,	"Attributes are not supported on this node type"
+	XMLConst_SInvalidNodeType,	"Invalid node type"
+	XMLConst_SMismatchedRegItems,	"Mismatched paramaters to RegisterChildNodes"
+	XMLConst_SNotSingleTextNode,	"Element does not contain a single text node"
 	XMLConst_SDuplicateRegistration,	"\"%s\" DOMImplementation already registered"
 	XMLConst_SNoMatchingDOMVendor,	"No matching DOM Vendor: \"%s\""
 	XMLConst_SNoDOMNodeEx,	"Selected DOM Vendor does not support this property or method"
@@ -1254,6 +1248,47 @@ BEGIN
 	XMLConst_SDOMSTRING_SIZE_ERR,	"Invalid DOMString size"
 	XMLConst_SHIERARCHY_REQUEST_ERR,	"Cannot insert child node"
 	XMLConst_SWRONG_DOCUMENT_ERR,	"Node is owned by a different document"
+	XMLConst_SINVALID_CHARACTER_ERR,	"Invalid character in name"
+	XMLConst_SNO_DATA_ALLOWED_ERR,	"No data allowed"
+	XMLConst_SNO_MODIFICATION_ALLOWED_ERR,	"No modification allowed (readonly data)"
+	XMLConst_SNOT_FOUND_ERR,	"Node not found"
+	XMLConst_SNOT_SUPPORTED_ERR,	"Not supported"
+	XMLConst_SINUSE_ATTRIBUTE_ERR,	"Attribute already associated with another element"
+	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorLonLatParserError,	"LonLatParserError"
+	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorLonLatOutOfBounds,	"LonLatOutOfBounds"
+	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorZoomParserError,	"ZoomParserError"
+	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorZoomOutOfBounds,	"ZoomOutOfBounds"
+	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorGUIDParserError,	"GUIDParserError"
+	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorUnknownGUID,	"UnknownGUID"
+	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorShowMarksParserError,	"ShowMarksParserError"
+	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorUnknownError,	"UnknownError: %s"
+	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorSASExceptionRaised,	"SASExceptionRaised"
+	Compatibility_rsInvalidSourceArray,	"Invalid source array"
+	Compatibility_rsInvalidDestinationArray,	"Invalid destination array"
+	Compatibility_rsCharIndexOutOfBoundsFmt,	"Character index out of bounds (%d)"
+	Compatibility_rsByteIndexOutOfBoundsFmt,	"Start index out of bounds (%d)"
+	Compatibility_rsInvalidCharCountFmt,	"Invalid count (%d)"
+	Compatibility_rsInvalidDestinationIndexFmt,	"Invalid destination index (%d)"
+	Compatibility_rsInvalidCodePage,	"Invalid code page"
+	TB2Consts_STBChevronItemMoreButtonsHint,	"More Buttons|"
+	TB2Consts_STBDockParentNotAllowed,	"A TTBDock control cannot be placed inside a tool window or another TTBDock"
+	TB2Consts_STBDockCannotChangePosition,	"Cannot change Position of a TTBDock if it already contains controls"
+	TB2Consts_STBToolwinDockedToNameNotSet,	"Cannot save dockable window's position because DockedTo's Name property not set"
+	TBXGraphicsPNG_SInvalidImage,	"Invalid format"
+	TBXGraphicsPNG_SInvalidColorFormat,	"Invalid color format"
+	TBXGraphicsPNG_SUnsupportedCompressionScheme,	"Unsupported compression scheme"
+	TBXGraphicsPNG_SInvalidCRC,	"CRC error"
+	TBXGraphicsPNG_SCompressionError,	"Compression error"
+	TBXGraphicsPNG_SInvalidPalette,	"Invalid palette"
+	TBXGraphicsPNG_SUnknownCriticalChunk,	"Unexpected but critical chunk detected"
+	TBXGraphicsPNG_SExtraCompressedData,	"Extra compressed data found"
+	TBXGraphicsPNG_SInvalidPaletteIndex,	"Invalid palette index"
+	TBXGraphicsPNG_SInvalidDimensions,	"Invalid dimensions"
+	TBXGraphics_SInvalidParameters,	"Invalid parameters"
+	TBXGraphics_SInvalidImageDimensions,	"Invalid image dimensions"
+	SynEditStrConst_SYNS_ScrollInfoFmt,	"%d - %d"
+	SynEditStrConst_SYNS_ScrollInfoFmtTop,	"Top Line: %d"
+	SynEditStrConst_SYNS_EDuplicateShortcut,	"Shortcut already exists"
 	SynEditStrConst_SYNS_FilterPascal,	"Pascal Files (*.pas;*.pp;*.dpr;*.dpk;*.inc)|*.pas;*.pp;*.dpr;*.dpk;*.inc"
 	SynEditStrConst_SYNS_FilterHTML,	"HTML Documents (*.htm;*.html)|*.htm;*.html"
 	SynEditStrConst_SYNS_FilterINI,	"INI Files (*.ini)|*.ini"
@@ -1263,13 +1298,13 @@ BEGIN
 	SynEditStrConst_SYNS_FriendlyLangUnknown,	"<Unknown>"
 	SynEditTextBuffer_SListIndexOutOfBounds,	"Invalid stringlist index %d"
 	SynEditTextBuffer_SInvalidCapacity,	"Stringlist capacity cannot be smaller than count"
-	Compatibility_rsInvalidSourceArray,	"Invalid source array"
-	Compatibility_rsInvalidDestinationArray,	"Invalid destination array"
-	Compatibility_rsCharIndexOutOfBoundsFmt,	"Character index out of bounds (%d)"
-	Compatibility_rsByteIndexOutOfBoundsFmt,	"Start index out of bounds (%d)"
-	Compatibility_rsInvalidCharCountFmt,	"Invalid count (%d)"
-	Compatibility_rsInvalidDestinationIndexFmt,	"Invalid destination index (%d)"
-	Compatibility_rsInvalidCodePage,	"Invalid code page"
+	TB2Consts_STBToolbarIndexOutOfBounds,	"Toolbar item index out of range"
+	TB2Consts_STBToolbarItemReinserted,	"Toolbar item already inserted"
+	TB2Consts_STBToolbarItemParentInvalid,	"Toolbar item cannot be inserted into container of type %s"
+	TB2Consts_STBViewerNotFound,	"An item viewer associated the specified item could not be found"
+	SynEditStrConst_SYNS_FriendlyAttrComment,	"Comment"
+	SynEditStrConst_SYNS_FriendlyAttrEscapeAmpersand,	"Escape Ampersand"
+	SynEditStrConst_SYNS_FriendlyAttrFloat,	"Float"
 	SynEditStrConst_SYNS_FriendlyAttrHexadecimal,	"Hexadecimal"
 	SynEditStrConst_SYNS_FriendlyAttrIdentifier,	"Identifier"
 	SynEditStrConst_SYNS_FriendlyAttrKey,	"Key"
@@ -1283,41 +1318,6 @@ BEGIN
 	SynEditStrConst_SYNS_FriendlyAttrText,	"Text"
 	SynEditStrConst_SYNS_FriendlyAttrUnknownWord,	"Unknown Word"
 	SynEditStrConst_SYNS_FriendlyAttrValue,	"Value"
-	SynEditStrConst_SYNS_ScrollInfoFmt,	"%d - %d"
-	SynEditStrConst_SYNS_ScrollInfoFmtTop,	"Top Line: %d"
-	SynEditStrConst_SYNS_EDuplicateShortcut,	"Shortcut already exists"
-	TBXGraphicsPNG_SInvalidColorFormat,	"Invalid color format"
-	TBXGraphicsPNG_SUnsupportedCompressionScheme,	"Unsupported compression scheme"
-	TBXGraphicsPNG_SInvalidCRC,	"CRC error"
-	TBXGraphicsPNG_SCompressionError,	"Compression error"
-	TBXGraphicsPNG_SInvalidPalette,	"Invalid palette"
-	TBXGraphicsPNG_SUnknownCriticalChunk,	"Unexpected but critical chunk detected"
-	TBXGraphicsPNG_SExtraCompressedData,	"Extra compressed data found"
-	TBXGraphicsPNG_SInvalidPaletteIndex,	"Invalid palette index"
-	TBXGraphicsPNG_SInvalidDimensions,	"Invalid dimensions"
-	TBXGraphics_SInvalidParameters,	"Invalid parameters"
-	TBXGraphics_SInvalidImageDimensions,	"Invalid image dimensions"
-	SynEditStrConst_SYNS_FriendlyAttrAssembler,	"Assembler"
-	SynEditStrConst_SYNS_FriendlyAttrCharacter,	"Character"
-	SynEditStrConst_SYNS_FriendlyAttrComment,	"Comment"
-	SynEditStrConst_SYNS_FriendlyAttrEscapeAmpersand,	"Escape Ampersand"
-	SynEditStrConst_SYNS_FriendlyAttrFloat,	"Float"
-	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorZoomParserError,	"ZoomParserError"
-	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorZoomOutOfBounds,	"ZoomOutOfBounds"
-	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorGUIDParserError,	"GUIDParserError"
-	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorUnknownGUID,	"UnknownGUID"
-	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorShowMarksParserError,	"ShowMarksParserError"
-	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorUnknownError,	"UnknownError: %s"
-	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorSASExceptionRaised,	"SASExceptionRaised"
-	TB2Consts_STBToolbarIndexOutOfBounds,	"Toolbar item index out of range"
-	TB2Consts_STBToolbarItemReinserted,	"Toolbar item already inserted"
-	TB2Consts_STBToolbarItemParentInvalid,	"Toolbar item cannot be inserted into container of type %s"
-	TB2Consts_STBViewerNotFound,	"An item viewer associated the specified item could not be found"
-	TB2Consts_STBChevronItemMoreButtonsHint,	"More Buttons|"
-	TB2Consts_STBDockParentNotAllowed,	"A TTBDock control cannot be placed inside a tool window or another TTBDock"
-	TB2Consts_STBDockCannotChangePosition,	"Cannot change Position of a TTBDock if it already contains controls"
-	TB2Consts_STBToolwinDockedToNameNotSet,	"Cannot save dockable window's position because DockedTo's Name property not set"
-	TBXGraphicsPNG_SInvalidImage,	"Invalid format"
 	ComStrs_sTabFailSetObject,	"Failed to set object at index %d"
 	ComStrs_sTabMustBeMultiLine,	"MultiLine must be True when TabPosition is tpLeft or tpRight"
 	ComStrs_sInvalidIndex,	"Invalid index"
@@ -1332,8 +1332,8 @@ BEGIN
 	ComStrs_sFailSetCalMaxSelRange,	"Failed to set maximum selection range"
 	ComStrs_sFailSetCalMinMaxRange,	"Failed to set calendar min/max range"
 	ComStrs_sFailsetCalSelRange,	"Failed to set calendar selected range"
-	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorLonLatParserError,	"LonLatParserError"
-	u_CmdLineArgProcessorAPI_rsCmdLineArgProcessorLonLatOutOfBounds,	"LonLatOutOfBounds"
+	SynEditStrConst_SYNS_FriendlyAttrAssembler,	"Assembler"
+	SynEditStrConst_SYNS_FriendlyAttrCharacter,	"Character"
 	u_ResStrings_SAS_UNITS_kb,	"KB"
 	u_ResStrings_SAS_UNITS_mb,	"MB"
 	u_ResStrings_SAS_UNITS_gb,	"GB"
@@ -1581,11 +1581,11 @@ BEGIN
 	u_GUIDSet_SListCountError,	"List count out of bounds (%d)"
 	u_GUIDInterfaceSet_SInterfaceIsNilError,	"Interface is nil"
 	u_GUIDObjectSet_SObjectIsNilError,	"Object is nil"
+	GR32_Transforms_RCStrReverseTransformationNotImplemented,	"Reverse transformation is not implemented in %s."
+	GR32_Transforms_RCStrForwardTransformationNotImplemented,	"Forward transformation is not implemented in %s."
 	GR32_Resamplers_SDstNil,	"Destination bitmap is nil"
 	GR32_Resamplers_SSrcNil,	"Source bitmap is nil"
 	GR32_Resamplers_RCStrInvalidSrcRect,	"Invalid SrcRect"
-	GR32_Transforms_RCStrReverseTransformationNotImplemented,	"Reverse transformation is not implemented in %s."
-	GR32_Transforms_RCStrForwardTransformationNotImplemented,	"Forward transformation is not implemented in %s."
 	GR32_Backends_RCStrCannotAllocateDIBHandle,	"Can't allocate the DIB handle"
 	GR32_Backends_RCStrCannotCreateCompatibleDC,	"Can't create compatible DC"
 	GR32_Backends_RCStrCannotSelectAnObjectIntoDC,	"Can't select an object into DC"
@@ -2056,86 +2056,86 @@ BEGIN
 	SysConst_SAccessDenied,	"File access denied"
 END
 
+/* d:\rad studio\5.0\lib\WindowsXP.res */
 /* d:\rad studio\5.0\lib\Controls.res */
 /* d:\rad studio\5.0\lib\midas.res */
-/* d:\rad studio\5.0\lib\WindowsXP.res */
-/* D:\Proj\Новая папка\UG\Src\Browser\frm_IntrnalBrowser.dfm */
-/* D:\Proj\Новая папка\UG\Src\Browser\frm_InvisibleBrowser.dfm */
+/* Src\Browser\frm_IntrnalBrowser.dfm */
+/* Src\Browser\frm_InvisibleBrowser.dfm */
+/* Src\Settings\fr_CacheTypeList.dfm */
 /* d:\rad studio\5.0\lib\Buttons.res */
 /* d:\rad studio\5.0\lib\ExtDlgs.res */
-/* D:\Proj\Новая папка\UG\Src\Settings\fr_CacheTypeList.dfm */
+/* Src\CacheManager\frm_ProgressCacheConvrter.dfm */
 /* d:\rad studio\5.0\lib\FileCtrl.res */
-/* D:\Proj\Новая папка\UG\Src\CacheManager\frm_ProgressCacheConvrter.dfm */
-/* D:\Proj\Новая папка\UG\Src\CacheManager\frm_CacheManager.dfm */
+/* Src\CacheManager\frm_CacheManager.dfm */
+/* Src\MarksDB\GUI\fr_MarkCategorySelectOrAdd.dfm */
+/* Src\MarksDB\GUI\fr_SelectedPicture.dfm */
+/* Src\MarksDB\GUI\fr_PictureSelectFromList.dfm */
 /* d:\rad studio\5.0\lib\SPIN.RES */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\frm_MarkCategoryEdit.dfm */
-/* d:\rad studio\5.0\lib_sas\tbx\tbx_glyphs.res */
+/* Src\MarksDB\GUI\fr_MarksGeneralOptions.dfm */
+/* Src\MarksDB\GUI\frm_MarksMultiEdit.dfm */
+/* Src\MarksDB\GUI\fr_JpegImportOptions.dfm */
+/* Src\MarksDB\GUI\frm_JpegImportConfigEdit.dfm */
+/* Src\MarksDB\GUI\frm_ImportConfigEdit.dfm */
+/* Src\MarksDB\GUI\frm_MarkInfo.dfm */
 /* d:\rad studio\5.0\lib_sas\syn\Source\SynEdit.res */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\fr_MarkDescription.dfm */
-/* D:\Proj\Новая папка\UG\Src\SecondaryForms\fr_LonLat.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\fr_PictureSelectFromList.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\fr_SelectedPicture.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\fr_MarkCategorySelectOrAdd.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\frm_MarkEditPoint.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\frm_MarkEditPath.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\frm_MarkEditPoly.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\frm_MarkInfo.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\fr_MarksGeneralOptions.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\frm_ImportConfigEdit.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\fr_JpegImportOptions.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\frm_JpegImportConfigEdit.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\frm_MarksMultiEdit.dfm */
-/* D:\Proj\Новая папка\UG\Src\Debug\frm_DebugInfo.dfm */
-/* D:\Proj\Новая папка\UG\Src\MainForm\MergePolygons\frm_MergePolygonsProgress.dfm */
-/* D:\Proj\Новая папка\UG\Src\MainForm\MergePolygons\fr_MergePolygons.dfm */
-/* D:\Proj\Новая папка\UG\Src\MainForm\fr_SearchResultsItem.dfm */
-/* D:\Proj\Новая папка\UG\Src\SecondaryForms\frm_About.dfm */
-/* D:\Proj\Новая папка\UG\Src\Settings\fr_MapsList.dfm */
-/* D:\Proj\Новая папка\UG\Src\Settings\fr_GpsSatellites.dfm */
-/* D:\Proj\Новая папка\UG\Src\Settings\fr_GPSConfig.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\fr_PathSelect.dfm */
-/* D:\Proj\Новая папка\UG\Src\Settings\frm_ShortCutEdit.dfm */
-/* D:\Proj\Новая папка\UG\Src\Settings\fr_ShortCutList.dfm */
-/* D:\Proj\Новая папка\UG\Src\Settings\frm_Settings.dfm */
-/* D:\Proj\Новая папка\UG\Src\Settings\frm_MapLayersOptions.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\fr_MapSelect.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\fr_ZoomsSelect.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Download\fr_TilesDownload.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Download\frm_ProgressDownload.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Combine\fr_MapCombine.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Combine\fr_Combine.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Delete\fr_DeleteTiles.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Delete\fr_DeleteMarks.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Delete\fr_Delete.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\MBTiles\fr_ExportMBTiles.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\RMaps\fr_ExportRMapsSQLite.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\OruxMaps\fr_ExportOruxMapsSQLite.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\YandexMobile\fr_ExportYaMobileV3.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\YandexMobile\fr_ExportYaMobileV4.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\KML\fr_ExportGEKml.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\IPhone\fr_ExportIPhone.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\GeoExpressAUX\fr_ExportAUX.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\Archive\fr_ExportToFileCont.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\JNX\fr_ExportToJNX.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\OGF2\fr_ExportToOgf2.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\SAS4Android\fr_ExportToCE.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Export\fr_Export.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\frm_ProgressSimple.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\GenPrev\fr_TilesGenPrev.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\Copy\fr_TilesCopy.dfm */
-/* D:\Proj\Новая папка\UG\Src\RegionProcess\frm_RegionProcess.dfm */
-/* D:\Proj\Новая папка\UG\Src\MapSvcScan\frm_DGAvailablePic.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\frm_MarkSystemConfigEdit.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\frm_MarksExplorer.dfm */
-/* D:\Proj\Новая папка\UG\Src\SecondaryForms\frm_GoTo.dfm */
-/* D:\Proj\Новая папка\UG\Src\MarksDB\GUI\frm_PointProjecting.dfm */
-/* D:\Proj\Новая папка\UG\Src\UpdateChecker\frm_UpdateChecker.dfm */
-/* D:\Proj\Новая папка\UG\Src\PascalScript\frm_PascalScriptDbgOut.dfm */
-/* D:\Proj\Новая папка\UG\Src\PascalScript\frm_PascalScriptIDE.dfm */
-/* D:\Proj\Новая папка\UG\Src\MapType\frm_MapTypeEdit.dfm */
-/* D:\Proj\Новая папка\UG\Src\SecondaryForms\frm_LonLatRectEdit.dfm */
-/* D:\Proj\Новая папка\UG\Src\MainForm\frm_Main.dfm */
-/* D:\Proj\Новая папка\UG\Src\SecondaryForms\frm_StartLogo.dfm */
+/* d:\rad studio\5.0\lib_sas\tbx\tbx_glyphs.res */
+/* Src\MarksDB\GUI\fr_MarkDescription.dfm */
+/* Src\MarksDB\GUI\frm_MarkEditPoly.dfm */
+/* Src\MarksDB\GUI\frm_MarkEditPath.dfm */
+/* Src\SecondaryForms\fr_LonLat.dfm */
+/* Src\MarksDB\GUI\frm_MarkEditPoint.dfm */
+/* Src\MarksDB\GUI\frm_MarkCategoryEdit.dfm */
+/* Src\Debug\frm_DebugInfo.dfm */
+/* Src\MainForm\MergePolygons\frm_MergePolygonsProgress.dfm */
+/* Src\MainForm\MergePolygons\fr_MergePolygons.dfm */
+/* Src\MainForm\fr_SearchResultsItem.dfm */
+/* Src\PascalScript\frm_PascalScriptDbgOut.dfm */
+/* Src\PascalScript\frm_PascalScriptIDE.dfm */
+/* Src\UpdateChecker\frm_UpdateChecker.dfm */
+/* Src\MarksDB\GUI\frm_PointProjecting.dfm */
+/* Src\SecondaryForms\frm_GoTo.dfm */
+/* Src\MarksDB\GUI\frm_MarkSystemConfigEdit.dfm */
+/* Src\MarksDB\GUI\frm_MarksExplorer.dfm */
+/* Src\MapSvcScan\frm_DGAvailablePic.dfm */
+/* Src\RegionProcess\fr_MapSelect.dfm */
+/* Src\RegionProcess\fr_ZoomsSelect.dfm */
+/* Src\RegionProcess\Export\SAS4Android\fr_ExportToCE.dfm */
+/* Src\RegionProcess\Export\OGF2\fr_ExportToOgf2.dfm */
+/* Src\RegionProcess\Export\JNX\fr_ExportToJNX.dfm */
+/* Src\RegionProcess\Export\Archive\fr_ExportToFileCont.dfm */
+/* Src\RegionProcess\Export\GeoExpressAUX\fr_ExportAUX.dfm */
+/* Src\RegionProcess\Export\IPhone\fr_ExportIPhone.dfm */
+/* Src\RegionProcess\Export\KML\fr_ExportGEKml.dfm */
+/* Src\RegionProcess\Export\YandexMobile\fr_ExportYaMobileV4.dfm */
+/* Src\RegionProcess\Export\YandexMobile\fr_ExportYaMobileV3.dfm */
+/* Src\RegionProcess\Export\OruxMaps\fr_ExportOruxMapsSQLite.dfm */
+/* Src\RegionProcess\Export\RMaps\fr_ExportRMapsSQLite.dfm */
+/* Src\RegionProcess\Export\MBTiles\fr_ExportMBTiles.dfm */
+/* Src\RegionProcess\Export\fr_Export.dfm */
+/* Src\RegionProcess\Delete\fr_DeleteMarks.dfm */
+/* Src\RegionProcess\Delete\fr_DeleteTiles.dfm */
+/* Src\RegionProcess\Delete\fr_Delete.dfm */
+/* Src\RegionProcess\Combine\fr_MapCombine.dfm */
+/* Src\RegionProcess\Combine\fr_Combine.dfm */
+/* Src\RegionProcess\Download\fr_TilesDownload.dfm */
+/* Src\RegionProcess\Download\frm_ProgressDownload.dfm */
+/* Src\RegionProcess\Copy\fr_TilesCopy.dfm */
+/* Src\RegionProcess\GenPrev\fr_TilesGenPrev.dfm */
+/* Src\RegionProcess\frm_ProgressSimple.dfm */
+/* Src\RegionProcess\frm_RegionProcess.dfm */
+/* Src\Settings\frm_MapLayersOptions.dfm */
+/* Src\Settings\frm_ShortCutEdit.dfm */
+/* Src\Settings\fr_ShortCutList.dfm */
+/* Src\RegionProcess\fr_PathSelect.dfm */
+/* Src\Settings\fr_GpsSatellites.dfm */
+/* Src\Settings\fr_GPSConfig.dfm */
+/* Src\Settings\fr_MapsList.dfm */
+/* Src\Settings\frm_Settings.dfm */
+/* Src\SecondaryForms\frm_About.dfm */
+/* Src\SecondaryForms\frm_LonLatRectEdit.dfm */
+/* Src\MapType\frm_MapTypeEdit.dfm */
+/* Src\MainForm\frm_Main.dfm */
+/* Src\SecondaryForms\frm_StartLogo.dfm */
 /* D:\Proj\Новая папка\UG\.\Resources\VersionInfo.res */
 /* D:\Proj\Новая папка\UG\.\Resources\MainIcon.res */
 /* D:\Proj\Новая папка\UG\.\Resources\Common.res */
